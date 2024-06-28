@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'CosNet'
+const appName = 'Urbn'
 </script>
 
 <template>
