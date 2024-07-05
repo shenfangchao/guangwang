@@ -522,15 +522,15 @@ const appName = 'Char'
     padding: 0px 25px;
     font-size: 14px;
     margin-bottom: 14px;
-    color: #666666;
-
-    background-color: #fff;
+    color: #fff;
+/* 666666 */
+    background-color: transparent;
   }
   .T_title {
     font-size: 18px;
     font-weight: 600;
     margin: 1rem 0px;
-    color: #666666;
+    color: #fff;
   }
   .T_content {
     font-size: 14px;
@@ -540,7 +540,7 @@ const appName = 'Char'
   .title_content {
     font-size: 12px;
     margin-bottom: 12px;
-    color: #666;
+    color: #fff;
     margin-left: 12px;
     margin-right:12px;
   }
