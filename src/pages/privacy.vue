@@ -426,7 +426,7 @@ const appName = 'Char'
     color: #fff;
     margin-left:6px;
     margin-right:6px;
-    background-color: transparent;
+    background-color: black;
   }
   .bt {
     font-size: 20px;

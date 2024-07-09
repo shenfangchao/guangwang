@@ -524,7 +524,7 @@ const appName = 'Char'
     margin-bottom: 14px;
     color: #fff;
 /* 666666 */
-    background-color: transparent;
+    background-color: black;
   }
   .T_title {
     font-size: 18px;
