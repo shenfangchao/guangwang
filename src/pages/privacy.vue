@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'RainLink'
+const appName = 'VoiceX'
 </script>
 
 <template>
