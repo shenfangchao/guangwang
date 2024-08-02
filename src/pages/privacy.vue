@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'VoiceX'
+const appName = 'Ulo'
 </script>
 
 <template>
