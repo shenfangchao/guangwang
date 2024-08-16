@@ -519,12 +519,14 @@ const appName = 'Ulo'
 
 <style  scoped>
   .agreement {
-    padding: 0px 25px;
+    /* padding: 0px 25px; */
     font-size: 14px;
     margin-bottom: 14px;
     color: #fff;
 /* 666666 */
     background-color: black;
+    margin-left: 12px;
+    margin-right:12px;
   }
   .T_title {
     font-size: 18px;
