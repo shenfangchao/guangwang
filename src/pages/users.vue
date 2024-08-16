@@ -527,6 +527,7 @@ const appName = 'Ulo'
     background-color: black;
     margin-left: 12px;
     margin-right:12px;
+
   }
   .T_title {
     font-size: 18px;
