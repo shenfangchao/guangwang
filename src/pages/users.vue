@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Ulo'
+const appName = 'Diza'
 </script>
 
 <template>
@@ -544,7 +544,7 @@ const appName = 'Ulo'
     font-size: 12px;
     margin-bottom: 12px;
     color: #fff;
-    margin-left: 12px;
-    margin-right:12px;
+    /* margin-left: 12px;
+    margin-right:12px; */
   }
 </style>
