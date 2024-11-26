@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'SurfO'
+const appName = 'Tasia'
 </script>
 
 <template>
