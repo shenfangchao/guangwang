@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Tasia'
+const appName = 'CosdLive'
 </script>
 
 <template>
