@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'CosdLive'
+const appName = 'Ballro'
 </script>
 
 <template>
