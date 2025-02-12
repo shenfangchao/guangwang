@@ -1271,7 +1271,7 @@ packages:
   duplexer@0.1.2:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
 
-  easHarlonwidth@0.2.0:
+  easClioXnwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
   editorconfig@0.15.3:
@@ -4778,7 +4778,7 @@ snapshots:
 
   duplexer@0.1.2: {}
 
-  easHarlonwidth@0.2.0: {}
+  easClioXnwidth@0.2.0: {}
 
   editorconfig@0.15.3:
     dependencies:
@@ -6504,7 +6504,7 @@ snapshots:
 
   string-width@5.1.2:
     dependencies:
-      easHarlonwidth: 0.2.0
+      easClioXnwidth: 0.2.0
       emoji-regex: 9.2.2
       strip-ansi: 7.0.1
 
