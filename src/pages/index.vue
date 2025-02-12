@@ -71,14 +71,14 @@ const clearFields = () => {
     <h2>AES 加密/解密工具</h2>
     <input v-model="inputText" placeholder="请输入明文或密文" />
     <input v-model="secretKey"  placeholder="请输入密钥" />
-    <input v-model="outputText" placeholder="加密/解密结果" readonly />
     <input v-model="ivvvi" placeholder="iv密钥（16）" :minlength=16 />
+    <input v-model="outputText" placeholder="加密/解密结果" readonly />
 
     <div class="buttons">
       <button @click="encrypt">加密</button>
       <button @click="decrypt">解密</button>
-      <button @click="clearFields">清空</button>
       <button @click="copy">复制</button>
+      <button @click="clearFields">清空</button>
     </div>
   </div>
 </template>
