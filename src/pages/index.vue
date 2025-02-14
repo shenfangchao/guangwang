@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import CryptoJS from "crypto-js";
-
+import { ElMessage } from 'element-plus'
 let ivvvi = ref("1234657890123456");
 const inputText = ref(""); // 明文或密文
 const secretKey = ref(""); // 密钥
@@ -9,7 +9,10 @@ const outputText = ref(""); // 结果
 // AES 加密
 const encrypt = () => {
   if (!inputText.value || !secretKey.value || !ivvvi.value) {
-    alert("请输入文本和密钥和Iv");
+    ElMessage({
+    message: '请输入文本和密钥和Iv',
+    type: 'warning',
+  })
     return;
   }
   const key = CryptoJS.enc.Utf8.parse(secretKey.value.padEnd(16, "0")); // 确保密钥长度为 16
@@ -24,7 +27,10 @@ const encrypt = () => {
 // AES 解密
 const decrypt = () => {
   if (!inputText.value || !secretKey.value || !ivvvi.value) {
-    alert("请输入加密文本和密钥和Iv");
+    ElMessage({
+    message: '请输入加密文本和密钥和Iv',
+    type: 'warning',
+  })
     return;
   }
   try {
@@ -38,21 +44,35 @@ const decrypt = () => {
     outputText.value = bytes.toString(CryptoJS.enc.Utf8);
     if (!outputText.value) throw new Error("解密失败");
   } catch (error) {
-    alert("解密失败，请检查密钥是否正确");
+    ElMessage({
+    message: '解密失败，请检查密钥是否正确',
+    type: 'warning',
+  })
+    
   }
 };
 
 const copy = async () => {
   if (!outputText.value) {
-        alert("没有可复制的内容");
+    ElMessage({
+    message: '没有可复制的内容',
+    type: 'warning',
+  })
+       
         return;
       }
       try {
         await navigator.clipboard.writeText(outputText.value);
          
-        
+        ElMessage({
+    message: '复制成功',
+    type: 'success',
+  })
       } catch (err) {
-        alert("复制失败：" + err);
+        ElMessage({
+    message: '复制失败',
+    type: 'error',
+  })
       }
 }
 
