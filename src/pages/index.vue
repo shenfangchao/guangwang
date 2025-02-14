@@ -69,7 +69,7 @@ const clearFields = () => {
 <template>
   <div class="container">
     <h2>AES 加密/解密工具</h2>
-    <input v-model="inputText" placeholder="请输入明文或密文" />
+    <textarea class="textaaa" v-model="inputText" placeholder="请输入明文或密文" />
     <input v-model="secretKey"  placeholder="请输入密钥" />
     <input v-model="ivvvi" placeholder="iv密钥（16）" :minlength=16 />
     <input v-model="outputText" placeholder="加密/解密结果" readonly />
@@ -84,6 +84,15 @@ const clearFields = () => {
 </template>
 
 <style scoped>
+.textaaa {
+  display: block;
+  width: 96%;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 50px;
+}
 .container {
   width: 400px;
   margin: 50px auto;
