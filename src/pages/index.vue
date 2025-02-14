@@ -1,7 +1,9 @@
 <script setup>
 import { ref } from "vue";
 import CryptoJS from "crypto-js";
-import { ElMessage } from 'element-plus'
+import { ElMessage,ElMessageBox } from 'element-plus'
+
+const dialogVisible = ref(false)
 let ivvvi = ref("1234657890123456");
 const inputText = ref(""); // 明文或密文
 const secretKey = ref(""); // 密钥
@@ -79,11 +81,17 @@ const copy = async () => {
 
 // 清空输入
 const clearFields = () => {
+  dialogVisible.value = true;
+  
+};
+
+const confitm = () => {
   inputText.value = "";
   secretKey.value = "";
   outputText.value = "";
   ivvvi.value= '';
-};
+  dialogVisible.value = false;
+}
 </script>
 
 <template>
@@ -101,6 +109,24 @@ const clearFields = () => {
       <button @click="clearFields">清空</button>
     </div>
   </div>
+
+
+  <el-dialog
+    v-model="dialogVisible"
+    title="Error"
+    width="500"
+    :before-close="handleClose"
+  >
+    <span>是否清空？</span>
+    <template #footer>
+      <div class="dialog-footer">
+        <el-button @click="dialogVisible = false">取消</el-button>
+        <el-button type="primary" @click="confitm">
+          确认
+        </el-button>
+      </div>
+    </template>
+  </el-dialog>
 </template>
 
 <style scoped>
