@@ -111,6 +111,28 @@ const confitm = () => {
 let tableValue = ref([
   
 ]);
+
+const copyweuf = async (text) => {
+  if (!text) {
+    ElMessage({
+    message: '没有可复制的内容',
+    type: 'warning',
+  })
+    return;
+  }
+  try {
+    await navigator.clipboard.writeText(text);
+    ElMessage({
+    message: '复制成功',
+    type: 'success',
+  })
+  } catch (err) {
+    ElMessage({
+    message: '复制失败',
+    type: 'error',
+  })
+  }
+};
 </script>
 
 <template>
@@ -134,6 +156,18 @@ let tableValue = ref([
     <el-table-column prop="secKey" label="密钥"   />
     <el-table-column prop="ivkey" label="iv密钥" />
     <el-table-column prop="result" label="加密/解密结果" />
+    <el-table-column fixed="right" label="操作" width="120">
+      <template #default="scope">
+        <el-button
+          link
+          type="primary"
+          size="small"
+          @click.prevent="copyweuf(scope.row.result)"
+        >
+          复制
+        </el-button>
+      </template>
+    </el-table-column>
   </el-table>
 </div>
 
