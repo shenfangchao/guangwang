@@ -25,6 +25,13 @@ const encrypt = () => {
     padding: CryptoJS.pad.Pkcs7
   }).toString();
   outputText.value = encrypted;
+  tableValue.value.unshift({
+    textvalue: inputText.value,
+    secKey: secretKey.value,
+    ivkey: ivvvi.value,
+    result: encrypted
+  });
+  
 };
 // AES 解密
 const decrypt = () => {
@@ -44,7 +51,13 @@ const decrypt = () => {
       padding: CryptoJS.pad.Pkcs7
     });
     outputText.value = bytes.toString(CryptoJS.enc.Utf8);
-    if (!outputText.value) throw new Error("解密失败");
+   
+    tableValue.value.unshift({
+    textvalue: inputText.value,
+    secKey: secretKey.value,
+    ivkey: ivvvi.value,
+    result: outputText.value
+  });
   } catch (error) {
     ElMessage({
     message: '解密失败，请检查密钥是否正确',
@@ -90,8 +103,14 @@ const confitm = () => {
   secretKey.value = "";
   outputText.value = "";
   ivvvi.value= '';
+  tableValue.value = [];
   dialogVisible.value = false;
 }
+
+
+let tableValue = ref([
+  
+]);
 </script>
 
 <template>
@@ -109,11 +128,18 @@ const confitm = () => {
       <button @click="clearFields">清空</button>
     </div>
   </div>
-
+<div style="display: flex; justify-content: center; width: 100%;">
+  <el-table :data="tableValue" stripe style="width: 90%" border>
+    <el-table-column prop="textvalue" label="明文/密文"   />
+    <el-table-column prop="secKey" label="密钥"   />
+    <el-table-column prop="ivkey" label="iv密钥" />
+    <el-table-column prop="result" label="加密/解密结果" />
+  </el-table>
+</div>
 
   <el-dialog
     v-model="dialogVisible"
-    title="Error"
+    title="提示"
     width="500"
     :before-close="handleClose"
   >
@@ -130,6 +156,7 @@ const confitm = () => {
 </template>
 
 <style scoped>
+
 .textaaa {
   display: block;
   width: 96%;
@@ -140,8 +167,8 @@ const confitm = () => {
   height: 50px;
 }
 .container {
-  width: 400px;
-  margin: 50px auto;
+  width: 800px;
+  margin: 30px auto;
   padding: 20px 20px;
   text-align: center;
   border: 1px solid #ddd;
@@ -160,7 +187,7 @@ input {
 }
 .buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
 }
 button {
   padding: 8px 15px;
