@@ -151,12 +151,16 @@ const copyweuf = async (text) => {
     </div>
   </div>
 <div style="display: flex; justify-content: center; width: 100%;">
-  <el-table :data="tableValue" stripe style="width: 90%" border>
-    <el-table-column prop="textvalue" label="明文/密文"   />
+  <el-table :data="tableValue" stripe style="width: 90%" border show-overflow-tooltip>
+    <el-table-column prop="textvalue" label="明文/密文" style=" white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; "   class-name="ellipsis-column"/>
     <el-table-column prop="secKey" label="密钥"   />
     <el-table-column prop="ivkey" label="iv密钥" />
-    <el-table-column prop="result" label="加密/解密结果" />
-    <el-table-column fixed="right" label="操作" width="120">
+    <el-table-column prop="result" label="加密/解密结果" style=" white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; "  class-name="ellipsis-column"/>
+    <el-table-column fixed="right" label="操作" width="120" >
       <template #default="scope">
         <el-button
           link
@@ -190,7 +194,11 @@ const copyweuf = async (text) => {
 </template>
 
 <style scoped>
-
+.ellipsis-column {
+  white-space: nowrap; /* 禁止换行 */
+  overflow: hidden; /* 隐藏溢出部分 */
+  text-overflow: ellipsis; /* 显示省略号 */
+}
 .textaaa {
   display: block;
   width: 96%;
