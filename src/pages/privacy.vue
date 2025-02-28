@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'ClioX'
+const appName = 'Olure'
 </script>
 
 <template>
