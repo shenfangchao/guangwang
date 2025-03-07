@@ -133,6 +133,14 @@ const copyweuf = async (text) => {
   })
   }
 };
+
+const clearTable = () => {
+  tableValue.value = [];
+}
+
+const deleteTable =(tableitem) => {
+  tableValue.value.splice(tableitem, 1);
+}
 </script>
 
 <template>
@@ -150,30 +158,44 @@ const copyweuf = async (text) => {
       <button @click="clearFields">清空</button>
     </div>
   </div>
-<div style="display: flex; justify-content: center; width: 100%;">
-  <el-table :data="tableValue" stripe style="width: 90%" border show-overflow-tooltip>
-    <el-table-column prop="textvalue" label="明文/密文" style=" white-space: nowrap; 
-  overflow: hidden;
-  text-overflow: ellipsis; "   class-name="ellipsis-column"/>
-    <el-table-column prop="secKey" label="密钥"   />
-    <el-table-column prop="ivkey" label="iv密钥" />
-    <el-table-column prop="result" label="加密/解密结果" style=" white-space: nowrap; 
-  overflow: hidden;
-  text-overflow: ellipsis; "  class-name="ellipsis-column"/>
-    <el-table-column fixed="right" label="操作" width="120" >
-      <template #default="scope">
-        <el-button
-          link
-          type="primary"
-          size="small"
-          @click.prevent="copyweuf(scope.row.result)"
-        >
-          复制
-        </el-button>
-      </template>
-    </el-table-column>
-  </el-table>
-</div>
+  <div style="display: flex; justify-content: center;">
+    <div style="width: 90%">
+      <button @click="clearTable">清空表格</button>
+    </div>
+  </div>
+  <div style="display: flex; justify-content: center; width: 100%;">
+   
+    <el-table :data="tableValue" stripe style="width: 90%" border show-overflow-tooltip>
+      <el-table-column prop="textvalue" label="明文/密文" style=" white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; "   class-name="ellipsis-column"/>
+      <el-table-column prop="secKey" label="密钥"   />
+      <el-table-column prop="ivkey" label="iv密钥" />
+      <el-table-column prop="result" label="加密/解密结果" style=" white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; "  class-name="ellipsis-column"/>
+      <el-table-column fixed="right" label="操作" width="120" >
+        <template #default="scope">
+          <el-button
+            link
+            type="primary"
+            size="small"
+            @click.prevent="copyweuf(scope.row.result)"
+          >
+            复制
+          </el-button>
+          <el-button
+            link
+            type="primary"
+            size="small"
+            @click.prevent="deleteTable(scope.$index)"
+          >
+            删除
+          </el-button>
+        </template>
+      </el-table-column>
+    </el-table>
+  </div>
 
   <el-dialog
     v-model="dialogVisible"
