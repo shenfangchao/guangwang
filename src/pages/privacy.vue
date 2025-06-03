@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Nuriv'
+const appName = 'Nyzo'
 </script>
 
 <template>
