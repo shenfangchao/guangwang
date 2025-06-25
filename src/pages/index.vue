@@ -4,10 +4,11 @@ import CryptoJS from "crypto-js";
 import { ElMessage,ElMessageBox } from 'element-plus'
 
 const dialogVisible = ref(false)
-let ivvvi = ref("1234657890123456");
+let ivvvi = ref("");
 const inputText = ref(""); // 明文或密文
 const secretKey = ref(""); // 密钥
 const outputText = ref(""); // 结果
+const encodeType = ref("Base64"); // 默认 Base64
 // AES 加密
 const encrypt = () => {
   if (!inputText.value || !secretKey.value || !ivvvi.value) {
@@ -19,11 +20,16 @@ const encrypt = () => {
   }
   const key = CryptoJS.enc.Utf8.parse(secretKey.value.padEnd(16, "0")); // 确保密钥长度为 16
   const iv = CryptoJS.enc.Utf8.parse(`${ivvvi.value}`); // 固定 IV，必须 16 字节
-  const encrypted = CryptoJS.AES.encrypt(inputText.value, key, {
+  const encryptedRaw = CryptoJS.AES.encrypt(inputText.value, key, {
     iv: iv,
     mode: CryptoJS.mode.CBC,
     padding: CryptoJS.pad.Pkcs7
-  }).toString();
+  });
+
+  const encrypted = encodeType.value === "Hex"
+    ? encryptedRaw.ciphertext.toString(CryptoJS.enc.Hex)
+    : encryptedRaw.toString(); // 默认 Base64
+
   outputText.value = encrypted;
   tableValue.value.unshift({
     textvalue: inputText.value,
@@ -45,11 +51,20 @@ const decrypt = () => {
   try {
     const key = CryptoJS.enc.Utf8.parse(secretKey.value.padEnd(16, "0")); // 确保密钥长度为 16
     const iv = CryptoJS.enc.Utf8.parse(ivvvi.value); // 固定 IV，必须 16 字节
-    const bytes = CryptoJS.AES.decrypt(inputText.value, key, {
+    const encryptedSource = encodeType.value === "Hex"
+      ? CryptoJS.enc.Hex.parse(inputText.value)
+      : inputText.value;
+
+    const encryptedBase64 = encodeType.value === "Hex"
+      ? CryptoJS.enc.Base64.stringify(encryptedSource)
+      : encryptedSource;
+
+    const bytes = CryptoJS.AES.decrypt(encryptedBase64, key, {
       iv: iv,
       mode: CryptoJS.mode.CBC,
       padding: CryptoJS.pad.Pkcs7
     });
+
     outputText.value = bytes.toString(CryptoJS.enc.Utf8);
    
     tableValue.value.unshift({
@@ -149,6 +164,10 @@ const deleteTable =(tableitem) => {
     <textarea class="textaaa" v-model="inputText" placeholder="请输入明文或密文" />
     <input v-model="secretKey"  placeholder="请输入密钥" />
     <input v-model="ivvvi" placeholder="iv密钥（16）" :minlength=16 />
+    <select v-model="encodeType" class="styled-select">
+      <option value="Base64">Base64</option>
+      <option value="Hex">Hex（十六进制）</option>
+    </select>
     <input v-model="outputText" placeholder="加密/解密结果" readonly />
 
     <div class="buttons">
@@ -174,6 +193,7 @@ const deleteTable =(tableitem) => {
       <el-table-column prop="result" label="加密/解密结果" style=" white-space: nowrap; 
     overflow: hidden;
     text-overflow: ellipsis; "  class-name="ellipsis-column"/>
+
       <el-table-column fixed="right" label="操作" width="120" >
         <template #default="scope">
           <el-button
@@ -264,5 +284,21 @@ button {
 }
 button:hover {
   background-color: #0056b3;
+}
+.styled-select {
+  width: 100%;
+  height: 50px;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  appearance: none;
+  background-color: white;
+  font-size: 16px;
+  color: #333;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2210%22%20height%3D%226%22%20viewBox%3D%220%200%2010%206%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%200l5%206%205-6z%22%20fill%3D%22%23333%22/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px 6px;
 }
 </style>
