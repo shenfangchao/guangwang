@@ -243,7 +243,7 @@ const deleteTable =(tableitem) => {
 }
 .textaaa {
   display: block;
-  width: 96%;
+  width: 100%;
   margin: 10px 0;
   padding: 8px;
   border: 1px solid #ddd;
@@ -261,7 +261,7 @@ const deleteTable =(tableitem) => {
 }
 input {
   display: block;
-  width: 96%;
+  width:100%;
   margin: 10px 0;
   padding: 8px;
   border: 1px solid #ddd;
