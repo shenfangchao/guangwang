@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'Hwiva'
+const appName = 'Lodra'
 </script>
 
 <template>
