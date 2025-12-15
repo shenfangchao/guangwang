@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'LumoCall'
+const appName = 'Metti'
 </script>
 
 <template>
