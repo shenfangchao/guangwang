@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'TickLiv'
+const appName = 'FacMet'
 </script>
 
 <template>
