@@ -2,7 +2,7 @@
 defineOptions({
   name: 'IndexPage',
 })
-const appName = 'FacMet'
+const appName = 'Smirra'
 </script>
 
 <template>
