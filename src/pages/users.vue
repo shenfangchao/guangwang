@@ -1,186 +1,172 @@
+<script>
+export default {
+  name: 'JozyUserAgreement',
+}
+</script>
+
 <template>
   <div class="csp-wrapper">
     <div class="csp-container">
       <header class="csp-header">
-        <h1>Palio Policy Agreement</h1>
-        <p class="csp-updated">Last updated: June 26, 2026</p>
+        <h1>Jozy User Agreement</h1>
+        <p class="csp-updated">
+          Last updated: July 8, 2026
+        </p>
       </header>
 
       <p class="csp-intro">
-        Palio adheres to a zero-tolerance policy for any form of child
-        abuse, exploitation, and/or sexual behavior. We are committed to
-        protecting the safety of underage users and ensuring that the
-        platform is not used for inappropriate behavior. Any users who
-        violate the Palio Policy will have their accounts
-        deleted and may face legal consequences.
+        These terms govern your use of Jozy, a travel organization and
+        social trip sharing service for recording Argentina journeys,
+        travel costs, daily plans, and simple memories with friends.
       </p>
 
-      <!-- 1. Age Restriction -->
       <section class="csp-section">
-        <h2>1. Age Restriction</h2>
+        <h2>1. Acceptance of these terms</h2>
+        <p>
+          By accessing or using Jozy, you agree to this User Agreement and
+          our Privacy Policy. If you do not agree, you should not use Jozy.
+          You are responsible for complying with applicable laws when using
+          the service.
+        </p>
+      </section>
+
+      <section class="csp-section">
+        <h2>2. What Jozy provides</h2>
+        <p>
+          Jozy lets you create trips for Buenos Aires, Patagonia, Mendoza,
+          Salta, or any route across Argentina; add spending notes for
+          meals, transport, stays, tickets, shopping, and local experiences;
+          organize daily plans; post travel updates; save route moments; and
+          share selected trip records with friends.
+        </p>
+        <p>
+          Jozy is designed for travel organization, personal records, and
+          social trip sharing only. It is not a banking, payment, lending,
+          investment, currency exchange, insurance, tax, accounting, or
+          financial advisory service.
+        </p>
+      </section>
+
+      <section class="csp-section">
+        <h2>3. Accounts and eligibility</h2>
         <ul>
-          <li>Users must be at least 18 years old to use Palio.</li>
+          <li>You must provide accurate account information and keep it up to date.</li>
+          <li>You are responsible for keeping your login credentials secure.</li>
           <li>
-            Falsifying one's age to access the platform is strictly
-            prohibited and will result in the suspension or deletion of the
-            account.
+            You must be old enough to use Jozy under applicable law and, in
+            any case, must not use Jozy if you are under 18.
+          </li>
+          <li>
+            You may not create an account for another person without their
+            permission.
           </li>
         </ul>
       </section>
 
-      <!-- 2. Prohibited Activities -->
       <section class="csp-section">
-        <h2>2. Prohibited Activities</h2>
+        <h2>4. User content and shared trips</h2>
         <p>
-          Palio uses both automated and manual systems to detect underage
-          activity and Child Sexual Abuse and Exploitation (CSAE). Any
-          attempt to circumvent these systems is strictly prohibited.
-          Prohibited activities include, but are not limited to, the
-          following:
+          You remain responsible for the trip plans, cost records, notes,
+          comments, photos, route moments, and other content you add to
+          Jozy. You should only upload or share content that you have the
+          right to use and that does not violate another person's rights,
+          privacy, or safety.
         </p>
-
-        <h3>Sexualization of Minors and Child Sexual Abuse and Exploitation (CSAE)</h3>
-        <ul>
-          <li>
-            Sharing, creating, or distributing content involving child
-            sexual abuse or exploitation.
-          </li>
-          <li>
-            Any content related to minor sexual attraction, such as
-            discussions, sexual performances, or wearing sexually suggestive
-            clothing.
-          </li>
-          <li>
-            Any form of child nudity or sexually suggestive descriptions,
-            including artistic representations such as drawings or
-            animations.
-          </li>
-        </ul>
-
-        <h3>Harmful or Dangerous Behavior Involving Minors</h3>
-        <ul>
-          <li>
-            Threatening, encouraging, or engaging in physical violence
-            against minors.
-          </li>
-          <li>Psychological abuse, coercion, or manipulation of minors.</li>
-          <li>
-            Depicting or encouraging minors to engage in dangerous
-            activities.
-          </li>
-          <li>Promoting or depicting neglect or trafficking of minors.</li>
-        </ul>
-      </section>
-
-      <!-- 3. Minor Representation on the Platform -->
-      <section class="csp-section">
-        <h2>3. Minor Representation on the Platform</h2>
-        <ul>
-          <li>
-            Minors are strictly prohibited from appearing in live streams,
-            videos, or any other form of content.
-          </li>
-          <li>Creating or managing accounts for minors is prohibited.</li>
-          <li>Falsifying age to gain access to the platform is prohibited.</li>
-        </ul>
-      </section>
-
-      <!-- 4. Reporting Mechanism -->
-      <section class="csp-section">
-        <h2>4. Reporting Mechanism</h2>
         <p>
-          Any incidents of child abuse will be reported to the National
-          Center for Missing and Exploited Children (NCMEC) or other
-          relevant authorities, as required by applicable laws. Users can
-          report potential violations via the in-app reporting function or
-          by emailing
-          
+          When you invite friends or make a trip shared, participants may
+          see trip details, spending notes, comments, updates, and related
+          activity. You should review what you share before inviting others.
         </p>
       </section>
 
-      <!-- 5. Prohibited Users -->
       <section class="csp-section">
-        <h2>5. Prohibited Users</h2>
-        <p>
-          Users who have been convicted of child-related crimes (including
-          but not limited to sexual assault, physical abuse, neglect, or
-          trafficking) are strictly prohibited from using Palio.
-        </p>
-      </section>
-
-      <!-- 6. Enforcement and Transparency -->
-      <section class="csp-section">
-        <h2>6. Enforcement and Transparency</h2>
-        <p>
-          Palio will strictly enforce the Child Safety Policy, and any
-          violations will result in immediate penalties. Depending on the
-          severity of the violation, Palio may cooperate with law
-          enforcement agencies to conduct investigations.
-        </p>
-      </section>
-
-      <!-- 7. User Education -->
-      <section class="csp-section">
-        <h2>7. User Education</h2>
-        <p>Palio educates users about child safety through the following methods:</p>
+        <h2>5. Prohibited activities</h2>
         <ul>
-          <li>Providing the platform's child safety policy.</li>
+          <li>Using Jozy for fraud, illegal activity, harassment, abuse, or impersonation.</li>
+          <li>Uploading content that is hateful, threatening, exploitative, obscene, or unlawful.</li>
+          <li>Sharing another person's private information without permission.</li>
+          <li>Attempting to access accounts, trips, systems, or data without authorization.</li>
+          <li>Interfering with Jozy's security, availability, or normal operation.</li>
           <li>
-            Offering reminders and alerts during content creation and
-            sharing to avoid potential dangers.
+            Presenting Jozy spending notes as financial, legal, tax,
+            banking, insurance, investment, or currency exchange advice.
           </li>
         </ul>
       </section>
 
-      <!-- 8. Additional Resources -->
       <section class="csp-section">
-        <h2>8. Additional Resources</h2>
+        <h2>6. Child safety</h2>
         <p>
-          If you encounter child exploitation or abuse outside of Palio, we
-          recommend contacting the following resources based on your
-          location:
+          Jozy has zero tolerance for child sexual abuse and exploitation
+          (CSAE), grooming, trafficking, sexualization of minors, or any
+          harmful behavior involving minors. Content or conduct involving
+          child abuse, exploitation, or endangerment is strictly prohibited.
         </p>
-        <ul>
-          <li>
-            <strong>North America, Australia, New Zealand:</strong> National
-            Center for Missing and Exploited Children (NCMEC)
-          </li>
-          <li>
-            <strong>Europe:</strong> Law enforcement reporting channels for
-            child sexual coercion and extortion
-          </li>
-          <li>
-            <strong>South America and Other Regions:</strong> International
-            Centre for Missing &amp; Exploited Children
-          </li>
-        </ul>
-      </section>
-
-      <!-- 9. Commitment to Child Safety -->
-      <section class="csp-section">
-        <h2>9. Commitment to Child Safety</h2>
         <p>
-          Palio is committed to continuously evaluating and improving its
-          policies, systems, and practices to ensure the highest standards
-          of child safety on the platform. Our goal is to provide a safe and
-          inclusive space for everyone.
+          We may remove content, suspend or delete accounts, preserve
+          evidence, and report incidents to the National Center for Missing
+          and Exploited Children (NCMEC), law enforcement, or other relevant
+          authorities when required or appropriate.
         </p>
       </section>
-    </div>
 
-    <!-- 固定悬浮联系信息条 -->
-    <div class="csp-floating-bar">
-      <span class="csp-floating-label">Contact:</span>
-      <a class="csp-floating-email">niuyunqi0601@icloud.com</a>
+      <section class="csp-section">
+        <h2>7. Service changes and availability</h2>
+        <p>
+          We may update, suspend, limit, or discontinue features from time
+          to time. We try to keep Jozy available, but we do not guarantee
+          uninterrupted, error-free, or permanent access to any feature or
+          content.
+        </p>
+      </section>
+
+      <section class="csp-section">
+        <h2>8. Enforcement</h2>
+        <p>
+          If we believe you have violated this User Agreement, we may remove
+          content, limit access, suspend or delete your account, or take
+          other action needed to protect Jozy, users, or the public. Serious
+          violations may be reported to relevant authorities.
+        </p>
+      </section>
+
+      <section class="csp-section">
+        <h2>9. Disclaimers</h2>
+        <p>
+          Jozy is provided on an "as is" and "as available" basis. Travel
+          plans, budgets, notes, and shared records are provided for
+          personal organization only. You are responsible for verifying
+          travel information, prices, bookings, local rules, and any
+          decisions you make based on your records.
+        </p>
+      </section>
+
+      <section class="csp-section">
+        <h2>10. Updates to this agreement</h2>
+        <p>
+          We may update this User Agreement from time to time. If changes
+          are material, we will update the effective date and provide notice
+          as required by applicable law. Continued use of Jozy after an
+          update means you accept the revised terms.
+        </p>
+      </section>
+
+      <section class="csp-section">
+        <h2>11. Contact</h2>
+        <p>
+          If you have questions about this User Agreement or need to report
+          a safety issue, please contact us.
+        </p>
+        <address class="csp-address">
+          Contact email:
+          <a href="mailto:Jozy891561564@icloud.com?subject=User%20Agreement%20question">
+            Jozy891561564@icloud.com
+          </a>
+        </address>
+      </section>
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'HiLiveChildSafetyPolicy'
-}
-</script>
 
 <style scoped>
 .csp-wrapper {
@@ -191,7 +177,7 @@ export default {
 .csp-container {
   max-width: 860px;
   margin: 0 auto;
-  padding: 2.5rem 1.5rem 6rem; /* 底部留白，避免被悬浮条遮挡 */
+  padding: 2.5rem 1.5rem 4rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
   color: #2b2d33;
@@ -240,13 +226,6 @@ export default {
   margin-bottom: 1rem;
 }
 
-.csp-section h3 {
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: #33363d;
-  margin: 1.25rem 0 0.5rem;
-}
-
 .csp-section p {
   margin: 0 0 0.9rem;
   text-align: justify;
@@ -272,51 +251,18 @@ export default {
   text-decoration: underline;
 }
 
-/* 固定在页面底部的半透明悬浮条 */
-.csp-floating-bar {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.85rem 1rem;
-  background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  color: #fff;
-  font-size: 0.95rem;
-}
-
-.csp-floating-label {
-  font-weight: 600;
-  opacity: 0.85;
-}
-
-.csp-floating-email {
-  color: #fff;
-  text-decoration: underline;
-  word-break: break-word;
-}
-
-.csp-floating-email:hover {
-  opacity: 0.85;
+.csp-address {
+  font-style: normal;
+  background: #f6f7fa;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin: 0;
 }
 
 @media (max-width: 600px) {
   .csp-container {
-    padding: 1.5rem 1rem 6.5rem;
+    padding: 1.5rem 1rem 3rem;
     font-size: 15px;
-  }
-
-  .csp-floating-bar {
-    flex-direction: column;
-    gap: 0.15rem;
-    padding: 0.7rem 1rem;
-    font-size: 0.88rem;
   }
 }
 </style>
