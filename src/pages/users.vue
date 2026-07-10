@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'JozyUserAgreement',
+  name: 'HioyaUserAgreement',
 }
 </script>
 
@@ -8,42 +8,42 @@ export default {
   <div class="csp-wrapper">
     <div class="csp-container">
       <header class="csp-header">
-        <h1>Jozy User Agreement</h1>
+        <h1>Hioya User Agreement</h1>
         <p class="csp-updated">
-          Last updated: July 8, 2026
+          Last updated: July 10, 2026
         </p>
       </header>
 
       <p class="csp-intro">
-        These terms govern your use of Jozy, a travel organization and
-        social trip sharing service for recording Argentina journeys,
-        travel costs, daily plans, and simple memories with friends.
+        These terms govern your use of Hioya, a personal diary and
+        mood-sharing community for everyday thoughts, small moments, and
+        real-life memories.
       </p>
 
       <section class="csp-section">
         <h2>1. Acceptance of these terms</h2>
         <p>
-          By accessing or using Jozy, you agree to this User Agreement and
-          our Privacy Policy. If you do not agree, you should not use Jozy.
+          By accessing or using Hioya, you agree to this User Agreement and
+          our Privacy Policy. If you do not agree, you should not use Hioya.
           You are responsible for complying with applicable laws when using
           the service.
         </p>
       </section>
 
       <section class="csp-section">
-        <h2>2. What Jozy provides</h2>
+        <h2>2. What Hioya provides</h2>
         <p>
-          Jozy lets you create trips for Buenos Aires, Patagonia, Mendoza,
-          Salta, or any route across Argentina; add spending notes for
-          meals, transport, stays, tickets, shopping, and local experiences;
-          organize daily plans; post travel updates; save route moments; and
-          share selected trip records with friends.
+          Hioya lets you create diary entries with text, images, or short
+          videos; add mood tags; organize personal moments; look back on
+          past entries; post thoughts and daily updates; browse community
+          posts; react to shared moments; and comment in simple
+          conversations around feelings, habits, and everyday life.
         </p>
         <p>
-          Jozy is designed for travel organization, personal records, and
-          social trip sharing only. It is not a banking, payment, lending,
-          investment, currency exchange, insurance, tax, accounting, or
-          financial advisory service.
+          Hioya is designed for personal diary writing, everyday
+          expression, and relaxed community sharing only. It is not a
+          medical, mental health, therapy, crisis intervention, emergency,
+          financial, legal, or professional advisory service.
         </p>
       </section>
 
@@ -53,8 +53,8 @@ export default {
           <li>You must provide accurate account information and keep it up to date.</li>
           <li>You are responsible for keeping your login credentials secure.</li>
           <li>
-            You must be old enough to use Jozy under applicable law and, in
-            any case, must not use Jozy if you are under 18.
+            You must be old enough to use Hioya under applicable law and
+            must have any required parent or guardian consent.
           </li>
           <li>
             You may not create an account for another person without their
@@ -64,103 +64,117 @@ export default {
       </section>
 
       <section class="csp-section">
-        <h2>4. User content and shared trips</h2>
+        <h2>4. User content and community sharing</h2>
         <p>
-          You remain responsible for the trip plans, cost records, notes,
-          comments, photos, route moments, and other content you add to
-          Jozy. You should only upload or share content that you have the
-          right to use and that does not violate another person's rights,
-          privacy, or safety.
+          You remain responsible for diary entries, text, photos, videos,
+          mood tags, posts, reactions, comments, and other content you add
+          to Hioya. You should only upload or share content that you have
+          the right to use and that does not violate another person's
+          rights, privacy, or safety.
         </p>
         <p>
-          When you invite friends or make a trip shared, participants may
-          see trip details, spending notes, comments, updates, and related
-          activity. You should review what you share before inviting others.
+          Personal diary records are intended for your own reflection unless
+          you choose to share them. Community posts, reactions, and comments
+          may be visible to other users. You should review sensitive
+          thoughts, images, or videos before posting them publicly.
         </p>
       </section>
 
       <section class="csp-section">
         <h2>5. Prohibited activities</h2>
         <ul>
-          <li>Using Jozy for fraud, illegal activity, harassment, abuse, or impersonation.</li>
+          <li>Using Hioya for fraud, illegal activity, harassment, abuse, or impersonation.</li>
           <li>Uploading content that is hateful, threatening, exploitative, obscene, or unlawful.</li>
           <li>Sharing another person's private information without permission.</li>
-          <li>Attempting to access accounts, trips, systems, or data without authorization.</li>
-          <li>Interfering with Jozy's security, availability, or normal operation.</li>
+          <li>Posting content that encourages self-harm, violence, dangerous behavior, or abuse.</li>
+          <li>Attempting to access accounts, systems, or data without authorization.</li>
+          <li>Interfering with Hioya's security, availability, or normal operation.</li>
           <li>
-            Presenting Jozy spending notes as financial, legal, tax,
-            banking, insurance, investment, or currency exchange advice.
+            Presenting Hioya content as medical advice, therapy, diagnosis,
+            crisis support, legal advice, or professional guidance.
           </li>
         </ul>
       </section>
 
       <section class="csp-section">
-        <h2>6. Child safety</h2>
+        <h2>6. Safety and child protection</h2>
         <p>
-          Jozy has zero tolerance for child sexual abuse and exploitation
+          Hioya has zero tolerance for child sexual abuse and exploitation
           (CSAE), grooming, trafficking, sexualization of minors, or any
           harmful behavior involving minors. Content or conduct involving
           child abuse, exploitation, or endangerment is strictly prohibited.
         </p>
         <p>
-          We may remove content, suspend or delete accounts, preserve
-          evidence, and report incidents to the National Center for Missing
-          and Exploited Children (NCMEC), law enforcement, or other relevant
-          authorities when required or appropriate.
+          We may remove content, limit visibility, suspend or delete
+          accounts, preserve evidence, and report incidents to the National
+          Center for Missing and Exploited Children (NCMEC), law
+          enforcement, or other relevant authorities when required or
+          appropriate.
         </p>
       </section>
 
       <section class="csp-section">
-        <h2>7. Service changes and availability</h2>
+        <h2>7. Emotional content and emergency limits</h2>
+        <p>
+          Hioya may include personal feelings, moods, habits, and everyday
+          emotional snapshots shared by users. This content is for personal
+          expression and community connection only. Hioya does not provide
+          professional counseling, medical advice, diagnosis, treatment, or
+          emergency response. If you or someone else may be in immediate
+          danger, contact local emergency services.
+        </p>
+      </section>
+
+      <section class="csp-section">
+        <h2>8. Service changes and availability</h2>
         <p>
           We may update, suspend, limit, or discontinue features from time
-          to time. We try to keep Jozy available, but we do not guarantee
+          to time. We try to keep Hioya available, but we do not guarantee
           uninterrupted, error-free, or permanent access to any feature or
           content.
         </p>
       </section>
 
       <section class="csp-section">
-        <h2>8. Enforcement</h2>
+        <h2>9. Enforcement</h2>
         <p>
           If we believe you have violated this User Agreement, we may remove
           content, limit access, suspend or delete your account, or take
-          other action needed to protect Jozy, users, or the public. Serious
-          violations may be reported to relevant authorities.
+          other action needed to protect Hioya, users, or the public.
+          Serious violations may be reported to relevant authorities.
         </p>
       </section>
 
       <section class="csp-section">
-        <h2>9. Disclaimers</h2>
+        <h2>10. Disclaimers</h2>
         <p>
-          Jozy is provided on an "as is" and "as available" basis. Travel
-          plans, budgets, notes, and shared records are provided for
-          personal organization only. You are responsible for verifying
-          travel information, prices, bookings, local rules, and any
-          decisions you make based on your records.
+          Hioya is provided on an "as is" and "as available" basis. Diary
+          records, mood tags, posts, comments, reactions, and community
+          conversations are provided for personal expression only. You are
+          responsible for your own content, decisions, and interactions.
         </p>
       </section>
 
       <section class="csp-section">
-        <h2>10. Updates to this agreement</h2>
+        <h2>11. Updates to this agreement</h2>
         <p>
           We may update this User Agreement from time to time. If changes
           are material, we will update the effective date and provide notice
-          as required by applicable law. Continued use of Jozy after an
+          as required by applicable law. Continued use of Hioya after an
           update means you accept the revised terms.
         </p>
       </section>
 
       <section class="csp-section">
-        <h2>11. Contact</h2>
+        <h2>12. Contact</h2>
         <p>
           If you have questions about this User Agreement or need to report
           a safety issue, please contact us.
         </p>
         <address class="csp-address">
           Contact email:
-          <a href="mailto:Jozy891561564@icloud.com?subject=User%20Agreement%20question">
-            Jozy891561564@icloud.com
+          <a href="mailto:Hioya956187@icloud.com?subject=User%20Agreement%20question">
+            Hioya956187@icloud.com
           </a>
         </address>
       </section>
