@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'MageoUserAgreement',
+  name: 'JozyUserAgreement',
 }
 </script>
 
@@ -8,14 +8,14 @@ export default {
   <div class="csp-wrapper">
     <div class="csp-container">
       <header class="csp-header">
-        <h1>Mageo User Agreement</h1>
+        <h1>Jozy User Agreement</h1>
         <p class="csp-updated">
-          Last updated: July 24, 2026
+          Last updated: July 26, 2026
         </p>
       </header>
 
       <p class="csp-intro">
-        These terms govern your use of Mageo, a personal diary and
+        These terms govern your use of Jozy, a personal diary and
         mood-sharing community for everyday thoughts, small moments, and
         real-life memories.
       </p>
@@ -23,24 +23,24 @@ export default {
       <section class="csp-section">
         <h2>1. Acceptance of these terms</h2>
         <p>
-          By accessing or using Mageo, you agree to this User Agreement and
-          our Privacy Policy. If you do not agree, you should not use Mageo.
+          By accessing or using Jozy, you agree to this User Agreement and
+          our Privacy Policy. If you do not agree, you should not use Jozy.
           You are responsible for complying with applicable laws when using
           the service.
         </p>
       </section>
 
       <section class="csp-section">
-        <h2>2. What Mageo provides</h2>
+        <h2>2. What Jozy provides</h2>
         <p>
-          Mageo lets you create diary entries with text, images, or short
+          Jozy lets you create diary entries with text, images, or short
           videos; add mood tags; organize personal moments; look back on
           past entries; post thoughts and daily updates; browse community
           posts; react to shared moments; and comment in simple
           conversations around feelings, habits, and everyday life.
         </p>
         <p>
-          Mageo is designed for personal diary writing, everyday
+          Jozy is designed for personal diary writing, everyday
           expression, and relaxed community sharing only. It is not a
           medical, mental health, therapy, crisis intervention, emergency,
           financial, legal, or professional advisory service.
@@ -53,7 +53,7 @@ export default {
           <li>You must provide accurate account information and keep it up to date.</li>
           <li>You are responsible for keeping your login credentials secure.</li>
           <li>
-            You must be old enough to use Mageo under applicable law and
+            You must be old enough to use Jozy under applicable law and
             must have any required parent or guardian consent.
           </li>
           <li>
@@ -68,7 +68,7 @@ export default {
         <p>
           You remain responsible for diary entries, text, photos, videos,
           mood tags, posts, reactions, comments, and other content you add
-          to Mageo. You should only upload or share content that you have
+          to Jozy. You should only upload or share content that you have
           the right to use and that does not violate another person's
           rights, privacy, or safety.
         </p>
@@ -83,14 +83,14 @@ export default {
       <section class="csp-section">
         <h2>5. Prohibited activities</h2>
         <ul>
-          <li>Using Mageo for fraud, illegal activity, harassment, abuse, or impersonation.</li>
+          <li>Using Jozy for fraud, illegal activity, harassment, abuse, or impersonation.</li>
           <li>Uploading content that is hateful, threatening, exploitative, obscene, or unlawful.</li>
           <li>Sharing another person's private information without permission.</li>
           <li>Posting content that encourages self-harm, violence, dangerous behavior, or abuse.</li>
           <li>Attempting to access accounts, systems, or data without authorization.</li>
-          <li>Interfering with Mageo's security, availability, or normal operation.</li>
+          <li>Interfering with Jozy's security, availability, or normal operation.</li>
           <li>
-            Presenting Mageo content as medical advice, therapy, diagnosis,
+            Presenting Jozy content as medical advice, therapy, diagnosis,
             crisis support, legal advice, or professional guidance.
           </li>
         </ul>
@@ -99,7 +99,7 @@ export default {
       <section class="csp-section">
         <h2>6. Safety and child protection</h2>
         <p>
-          Mageo has zero tolerance for child sexual abuse and exploitation
+          Jozy has zero tolerance for child sexual abuse and exploitation
           (CSAE), grooming, trafficking, sexualization of minors, or any
           harmful behavior involving minors. Content or conduct involving
           child abuse, exploitation, or endangerment is strictly prohibited.
@@ -116,9 +116,9 @@ export default {
       <section class="csp-section">
         <h2>7. Emotional content and emergency limits</h2>
         <p>
-          Mageo may include personal feelings, moods, habits, and everyday
+          Jozy may include personal feelings, moods, habits, and everyday
           emotional snapshots shared by users. This content is for personal
-          expression and community connection only. Mageo does not provide
+          expression and community connection only. Jozy does not provide
           professional counseling, medical advice, diagnosis, treatment, or
           emergency response. If you or someone else may be in immediate
           danger, contact local emergency services.
@@ -129,7 +129,7 @@ export default {
         <h2>8. Service changes and availability</h2>
         <p>
           We may update, suspend, limit, or discontinue features from time
-          to time. We try to keep Mageo available, but we do not guarantee
+          to time. We try to keep Jozy available, but we do not guarantee
           uninterrupted, error-free, or permanent access to any feature or
           content.
         </p>
@@ -140,7 +140,7 @@ export default {
         <p>
           If we believe you have violated this User Agreement, we may remove
           content, limit access, suspend or delete your account, or take
-          other action needed to protect Mageo, users, or the public.
+          other action needed to protect Jozy, users, or the public.
           Serious violations may be reported to relevant authorities.
         </p>
       </section>
@@ -148,7 +148,7 @@ export default {
       <section class="csp-section">
         <h2>10. Disclaimers</h2>
         <p>
-          Mageo is provided on an "as is" and "as available" basis. Diary
+          Jozy is provided on an "as is" and "as available" basis. Diary
           records, mood tags, posts, comments, reactions, and community
           conversations are provided for personal expression only. You are
           responsible for your own content, decisions, and interactions.
@@ -160,7 +160,7 @@ export default {
         <p>
           We may update this User Agreement from time to time. If changes
           are material, we will update the effective date and provide notice
-          as required by applicable law. Continued use of Mageo after an
+          as required by applicable law. Continued use of Jozy after an
           update means you accept the revised terms.
         </p>
       </section>
@@ -173,8 +173,8 @@ export default {
         </p>
         <address class="csp-address">
           Contact email:
-          <a href="mailto:xiechengfang1977@icloud.com?subject=User%20Agreement%20question">
-            xiechengfang1977@icloud.com
+          <a href="mailto:mohamedxoox2@gmail.com?subject=User%20Agreement%20question">
+            mohamedxoox2@gmail.com
           </a>
         </address>
       </section>
