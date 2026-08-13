@@ -1,305 +1,255 @@
 <script>
 export default {
-  name: 'DocloUserAgreement',
+  name: 'OrisaUserAgreement',
 }
 </script>
 
 <template>
-  <div class="csp-wrapper">
-    <div class="csp-container">
-      <header class="csp-header">
-        <h1>Doclo User Agreement</h1>
-        <p class="csp-updated">
-          Last updated: August 13, 2026
-        </p>
-      </header>
-
-      <p class="csp-intro">
-        These terms govern your use of Doclo, a photo creation and community
-        service for recording and sharing sky-themed moments.
+  <div class="legal-page">
+    <header class="legal-hero">
+      <p class="legal-brand">
+        ORISA
       </p>
+      <h1>User Agreement</h1>
+      <p class="legal-updated">
+        Effective: August 13, 2026
+      </p>
+    </header>
 
-      <section class="csp-section">
-        <h2>1. Acceptance of these terms</h2>
-        <p>
-          By accessing or using Doclo, you agree to this User Agreement and
-          our Privacy Policy. If you do not agree, you should not use Doclo.
-          You are responsible for complying with applicable laws when using
-          the service.
-        </p>
-      </section>
+    <p class="legal-intro">
+      These terms govern your use of Orisa, a tennis community for sharing
+      practice moments, match-day observations, equipment notes, court
+      conditions, photos, short notes, and optional video posts.
+    </p>
 
-      <section class="csp-section">
-        <h2>2. What Doclo provides</h2>
-        <p>
-          The service lets you select or capture photos, create sky-themed
-          compositions, save drafts, publish community posts, browse and
-          react to posts, comment, vote, chat, report content, block users,
-          and purchase or use virtual diamonds through Apple in-app purchase.
-        </p>
-        <p>
-          The service is designed for personal creativity, everyday
-          expression, and community sharing only. It is not a
-          medical, mental health, therapy, crisis intervention, emergency,
-          financial, legal, or professional advisory service.
-        </p>
-      </section>
+    <section class="legal-section">
+      <h2>1. Acceptance</h2>
+      <p>
+        By creating an account, accessing, or using Orisa, you agree to this
+        User Agreement and our Privacy Policy. If you do not agree, do not use
+        Orisa. You are responsible for complying with laws that apply to you.
+      </p>
+    </section>
 
-      <section class="csp-section">
-        <h2>3. Accounts and eligibility</h2>
-        <ul>
-          <li>You must provide accurate account information and keep it up to date.</li>
-          <li>You are responsible for keeping your login credentials secure.</li>
-          <li>
-            You must be old enough to use Doclo under applicable law and
-            must have any required parent or guardian consent.
-          </li>
-          <li>
-            You may not create an account for another person without their
-            permission.
-          </li>
-        </ul>
-      </section>
+    <section class="legal-section">
+      <h2>2. Eligibility and accounts</h2>
+      <ul>
+        <li>You must be at least 13 years old and meet any higher minimum age required where you live.</li>
+        <li>If local law requires parental or guardian consent, you must obtain it before using Orisa.</li>
+        <li>You must provide accurate account information and keep it reasonably current.</li>
+        <li>You are responsible for activity under your account and for protecting your credentials.</li>
+        <li>You may not impersonate another person or create an account for someone else without permission.</li>
+      </ul>
+    </section>
 
-      <section class="csp-section">
-        <h2>4. User content and community sharing</h2>
-        <p>
-          You remain responsible for photos, descriptions, tags, drafts,
-          posts, reactions, comments, chats, and other content you add
-          to Doclo. You should only upload or share content that you have
-          the right to use and that does not violate another person's
-          rights, privacy, or safety.
-        </p>
-        <p>
-          Drafts are intended to remain private unless you choose to publish
-          them. Community posts, profile details, reactions, comments, and
-          chats may be visible to other users as indicated by the feature.
-          Review sensitive information and media before posting publicly.
-        </p>
-      </section>
+    <section class="legal-section">
+      <h2>3. The Orisa service</h2>
+      <p>
+        Orisa allows players to browse tennis community posts, share photos and
+        short notes, react to posts, follow community activity, and exchange
+        ideas about technique, training routines, equipment, court conditions,
+        matches, and everyday progress. Video publishing is an optional feature
+        available through Apple in-app purchase.
+      </p>
+      <p>
+        Orisa is a community and personal-expression service. It is not a source
+        of medical diagnosis, injury treatment, emergency assistance,
+        professional coaching certification, legal advice, or guaranteed
+        athletic results. Use appropriate judgment and seek qualified help when
+        needed.
+      </p>
+    </section>
 
-      <section class="csp-section">
-        <h2>5. Virtual diamonds and Apple in-app purchases</h2>
-        <ul>
-          <li>Virtual diamonds are digital items used only within the service and have no cash value.</li>
-          <li>Diamond packs are purchased through Apple's in-app purchase system at the price shown by the App Store purchase sheet.</li>
-          <li>Publishing a photo may consume the number of diamonds displayed in the confirmation screen before posting.</li>
-          <li>Transactions, billing, cancellations, and refunds are processed under Apple's terms and App Store policies.</li>
-          <li>You may not sell, transfer, exchange, manipulate, or redeem virtual diamonds for cash.</li>
-        </ul>
-      </section>
+    <section class="legal-section">
+      <h2>4. Your content</h2>
+      <p>
+        You retain ownership of the photos, videos, captions, notes, profile
+        information, and other content you submit to Orisa. You are responsible
+        for your content and must have the rights and permissions needed to
+        upload and share it, including permission from people who appear in it
+        where required.
+      </p>
+      <p>
+        To operate Orisa, you grant us a worldwide, non-exclusive, royalty-free,
+        sublicensable license to host, store, reproduce, adapt for technical
+        formatting, distribute, display, and make your content available through
+        the service. This license is limited to operating, improving, securing,
+        and promoting Orisa and ends when the content is deleted, except where
+        continued retention is reasonably required for backups, safety, legal
+        compliance, or content already shared by others as permitted by law.
+      </p>
+      <p>
+        You choose what to publish. Orisa does not require precise court
+        locations or personal schedules. Do not publish private, sensitive, or
+        identifying information that you do not want other people to see.
+      </p>
+    </section>
 
-      <section class="csp-section">
-        <h2>6. Prohibited activities</h2>
-        <ul>
-          <li>Using Doclo for fraud, illegal activity, harassment, abuse, or impersonation.</li>
-          <li>Uploading content that is hateful, threatening, exploitative, obscene, or unlawful.</li>
-          <li>Sharing another person's private information without permission.</li>
-          <li>Posting content that encourages self-harm, violence, dangerous behavior, or abuse.</li>
-          <li>Attempting to access accounts, systems, or data without authorization.</li>
-          <li>Manipulating purchases, receipts, virtual diamond balances, votes, or service metrics.</li>
-          <li>Interfering with Doclo's security, availability, or normal operation.</li>
-          <li>
-            Presenting Doclo content as medical advice, therapy, diagnosis,
-            crisis support, legal advice, or professional guidance.
-          </li>
-        </ul>
-      </section>
+    <section class="legal-section">
+      <h2>5. Community standards</h2>
+      <p>You may not use Orisa to create, upload, promote, or distribute:</p>
+      <ul>
+        <li>Illegal content or content that facilitates illegal activity.</li>
+        <li>Threats, harassment, bullying, stalking, hateful conduct, or targeted abuse.</li>
+        <li>Sexually explicit, exploitative, or non-consensual content.</li>
+        <li>Any content involving child sexual abuse, exploitation, grooming, or endangerment.</li>
+        <li>Graphic violence, credible threats, encouragement of self-harm, or dangerous conduct.</li>
+        <li>Another person's private or confidential information without authorization.</li>
+        <li>Content that infringes copyright, trademark, publicity, privacy, or other rights.</li>
+        <li>Spam, scams, deceptive promotions, fake engagement, or impersonation.</li>
+        <li>Malware, automated scraping, unauthorized data collection, or attempts to compromise the service.</li>
+      </ul>
+      <p>
+        Tennis activity involves physical risk. Do not use Orisa to encourage
+        unsafe training, trespassing, interference with matches, or conduct that
+        puts players, spectators, or facilities at risk.
+      </p>
+    </section>
 
-      <section class="csp-section">
-        <h2>7. Reporting, blocking, moderation, and child protection</h2>
-        <p>
-          You can report objectionable posts, comments, or users and block
-          abusive users through the available in-app controls. We may review
-          reports, restrict visibility, remove content, limit features, or
-          suspend or terminate accounts to enforce these terms and protect
-          users.
-        </p>
-        <p>
-          Doclo has zero tolerance for child sexual abuse and exploitation
-          (CSAE), grooming, trafficking, sexualization of minors, or any
-          harmful behavior involving minors. Content or conduct involving
-          child abuse, exploitation, or endangerment is strictly prohibited.
-        </p>
-        <p>
-          We may remove content, limit visibility, suspend or delete
-          accounts, preserve evidence, and report incidents to the National
-          Center for Missing and Exploited Children (NCMEC), law
-          enforcement, or other relevant authorities when required or
-          appropriate.
-        </p>
-      </section>
+    <section class="legal-section">
+      <h2>6. Reporting, blocking, and moderation</h2>
+      <p>
+        Orisa provides controls to report objectionable content or accounts and
+        to block unwanted interactions. We may review reports and relevant
+        content, remove or limit content, reduce distribution, restrict
+        features, suspend accounts, terminate accounts, preserve evidence, or
+        contact appropriate authorities when reasonably necessary.
+      </p>
+      <p>
+        We may use automated and human review to enforce this agreement, but we
+        cannot guarantee that all objectionable content will be identified
+        immediately. If you encounter content or conduct that violates these
+        terms, use the in-app reporting controls or contact us. Blocking limits
+        future interactions through Orisa but may not remove content that was
+        previously visible or independently saved.
+      </p>
+      <p>
+        We do not tolerate abusive users or objectionable content. Reports are
+        reviewed and acted upon within a reasonable period based on severity,
+        available information, and applicable safety obligations.
+      </p>
+    </section>
 
-      <section class="csp-section">
-        <h2>8. Emotional content and emergency limits</h2>
-        <p>
-          Doclo may include personal feelings, moods, habits, and everyday
-          emotional snapshots shared by users. This content is for personal
-          expression and community connection only. Doclo does not provide
-          professional counseling, medical advice, diagnosis, treatment, or
-          emergency response. If you or someone else may be in immediate
-          danger, contact local emergency services.
-        </p>
-      </section>
+    <section class="legal-section">
+      <h2>7. In-app purchases and video publishing</h2>
+      <ul>
+        <li>Photos and short notes can be published without purchasing the optional video-publishing feature.</li>
+        <li>The price, scope, and availability of a video-publishing purchase are shown before you confirm payment.</li>
+        <li>Purchases are processed through Apple using the Apple ID associated with the App Store.</li>
+        <li>Billing, payment authorization, cancellations, and refunds are governed by Apple's applicable terms and App Store processes.</li>
+        <li>Where a purchase is restorable, use the restore control provided in Orisa with the Apple ID used for the original transaction.</li>
+        <li>You may not manipulate transactions, receipts, purchase status, or access to paid functionality.</li>
+      </ul>
+      <p>
+        Purchasing video-publishing access does not exempt videos from these
+        community standards. We may remove a video or restrict an account that
+        violates this agreement without providing a refund, except where
+        required by law or Apple's policies.
+      </p>
+    </section>
 
-      <section class="csp-section">
-        <h2>9. Account deletion and service availability</h2>
-        <p>
-          You may delete your account through the in-app settings. Deletion
-          is irreversible and is subject to limited retention required for
-          transactions, refunds, legal compliance, dispute resolution,
-          security, and fraud prevention as described in the Privacy Policy.
-        </p>
-        <p>
-          We may update, suspend, limit, or discontinue features from time
-          to time. We try to keep Doclo available, but we do not guarantee
-          uninterrupted, error-free, or permanent access to any feature or
-          content.
-        </p>
-      </section>
+    <section class="legal-section">
+      <h2>8. Intellectual property</h2>
+      <p>
+        Orisa, including its name, branding, design, software, and original
+        service content, is protected by intellectual-property laws. Except for
+        rights expressly granted in this agreement, we retain all rights in the
+        service. You may not copy, reverse engineer, sell, sublicense, or create
+        derivative services from Orisa except as permitted by law.
+      </p>
+      <p>
+        If you believe content on Orisa infringes your rights, contact us with
+        enough information to identify the work, the content at issue, your
+        contact details, and the basis for your request.
+      </p>
+    </section>
 
-      <section class="csp-section">
-        <h2>10. Enforcement</h2>
-        <p>
-          If we believe you have violated this User Agreement, we may remove
-          content, limit access, suspend or delete your account, or take
-          other action needed to protect Doclo, users, or the public.
-          Serious violations may be reported to relevant authorities.
-        </p>
-      </section>
+    <section class="legal-section">
+      <h2>9. Account deletion and termination</h2>
+      <p>
+        You may delete your account using the account-deletion control in Orisa.
+        Deletion is irreversible after processing and is subject to limited
+        retention described in the Privacy Policy. Deleting an account does not
+        automatically create an App Store refund.
+      </p>
+      <p>
+        We may restrict, suspend, or terminate access when we reasonably believe
+        you violated these terms, created risk or legal exposure, repeatedly
+        infringed rights, abused other users, or threatened the integrity of the
+        service. Where appropriate, you may contact us to request a review of an
+        enforcement decision.
+      </p>
+    </section>
 
-      <section class="csp-section">
-        <h2>11. Disclaimers</h2>
-        <p>
-          The service is provided on an "as is" and "as available" basis.
-          Photos, posts, comments, reactions, votes, and community
-          conversations are provided for personal expression only. You are
-          responsible for your own content, decisions, and interactions.
-        </p>
-      </section>
+    <section class="legal-section">
+      <h2>10. Service availability and changes</h2>
+      <p>
+        We may update, add, remove, limit, or discontinue features to maintain
+        safety, security, performance, legal compliance, or product quality. We
+        do not guarantee that Orisa or any particular content will always be
+        available, uninterrupted, or error-free. We may provide notice of
+        material changes when reasonably practicable or legally required.
+      </p>
+    </section>
 
-      <section class="csp-section">
-        <h2>12. Updates to this agreement</h2>
-        <p>
-          We may update this User Agreement from time to time. If changes
-          are material, we will update the effective date and provide notice
-          as required by applicable law. Continued use of Doclo after an
-          update means you accept the revised terms.
-        </p>
-      </section>
+    <section class="legal-section">
+      <h2>11. Third-party services</h2>
+      <p>
+        Orisa may rely on or link to services operated by third parties,
+        including Apple and the App Store. Their services are governed by their
+        own terms and policies. We are not responsible for third-party services
+        that we do not control.
+      </p>
+    </section>
 
-      <section class="csp-section">
-        <h2>13. Contact</h2>
-        <p>
-          If you have questions about this User Agreement or need to report
-          a safety issue, please contact us.
-        </p>
-        <address class="csp-address">
-          Contact email:
-          <a href="mailto:xiongchangyou1974@icloud.com?subject=User%20Agreement%20question">
-            xiongchangyou1974@icloud.com
-          </a>
-        </address>
-      </section>
-    </div>
+    <section class="legal-section">
+      <h2>12. Disclaimers</h2>
+      <p>
+        To the fullest extent permitted by law, Orisa is provided "as is" and
+        "as available" without warranties of any kind, whether express or
+        implied. Community content reflects the views of its authors, not Orisa.
+        We do not endorse or guarantee the accuracy, safety, availability, or
+        usefulness of user content, tennis advice, equipment opinions, court
+        information, or interactions between users.
+      </p>
+    </section>
+
+    <section class="legal-section">
+      <h2>13. Limitation of liability</h2>
+      <p>
+        To the fullest extent permitted by law, Orisa and its operators will not
+        be liable for indirect, incidental, special, consequential, or punitive
+        damages, or for loss of data, content, profits, goodwill, or access
+        arising from use of the service. Nothing in these terms excludes rights
+        or liability that cannot legally be excluded.
+      </p>
+    </section>
+
+    <section class="legal-section">
+      <h2>14. Changes to this agreement</h2>
+      <p>
+        We may update this User Agreement as Orisa evolves. We will update the
+        effective date and provide additional notice when required. Continuing
+        to use Orisa after revised terms become effective means you agree to the
+        revised terms.
+      </p>
+    </section>
+
+    <section class="legal-section">
+      <h2>15. Contact</h2>
+      <p>
+        For questions, safety reports, intellectual-property notices, or an
+        enforcement review request, contact:
+      </p>
+      <address class="legal-address">
+        <a href="mailto:weijishu1967924@icloud.com?subject=Orisa%20User%20Agreement">
+          weijishu1967924@icloud.com
+        </a>
+      </address>
+    </section>
   </div>
 </template>
 
 <style scoped>
-.csp-wrapper {
-  position: relative;
-  min-height: 100vh;
-}
-
-.csp-container {
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 2.5rem 1.5rem 4rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, sans-serif;
-  color: #2b2d33;
-  line-height: 1.7;
-  font-size: 16px;
-}
-
-.csp-header {
-  border-bottom: 2px solid #e2e4ea;
-  padding-bottom: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.csp-header h1 {
-  font-size: 1.9rem;
-  font-weight: 700;
-  margin: 0 0 0.4rem;
-  color: #1a1c20;
-}
-
-.csp-updated {
-  font-size: 0.9rem;
-  color: #6b6f76;
-  margin: 0;
-}
-
-.csp-intro {
-  background: #f6f7fa;
-  border-left: 4px solid #d64545;
-  padding: 1rem 1.25rem;
-  border-radius: 6px;
-  margin-bottom: 2rem;
-  font-size: 0.97rem;
-}
-
-.csp-section {
-  margin-bottom: 2.25rem;
-}
-
-.csp-section h2 {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: #1a1c20;
-  border-bottom: 1px solid #e2e4ea;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.csp-section p {
-  margin: 0 0 0.9rem;
-  text-align: justify;
-}
-
-.csp-section ul,
-.csp-section ol {
-  margin: 0 0 1rem;
-  padding-left: 1.5rem;
-}
-
-.csp-section li {
-  margin-bottom: 0.6rem;
-}
-
-.csp-section a {
-  color: #d64545;
-  text-decoration: none;
-  word-break: break-word;
-}
-
-.csp-section a:hover {
-  text-decoration: underline;
-}
-
-.csp-address {
-  font-style: normal;
-  background: #f6f7fa;
-  border-radius: 6px;
-  padding: 0.75rem 1rem;
-  margin: 0;
-}
-
-@media (max-width: 600px) {
-  .csp-container {
-    padding: 1.5rem 1rem 3rem;
-    font-size: 15px;
-  }
-}
+@import '../styles/legal.css';
 </style>

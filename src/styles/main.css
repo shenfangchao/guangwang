@@ -6,6 +6,10 @@ body,
   padding: 0;
 }
 
+body {
+  background: #001e16;
+}
+
 /* html.dark {
   background: #121212;
 } */
