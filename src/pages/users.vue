@@ -256,8 +256,8 @@ export default {
         support, or an enforcement review request, contact:
       </p>
       <address class="legal-address">
-        <a href="mailto:weijishu1967924@icloud.com?subject=Umo%20User%20Agreement">
-          weijishu1967924@icloud.com
+        <a href="mailto:zhoumingying1967@icloud.com?subject=Umo%20User%20Agreement">
+          zhoumingying1967@icloud.com
         </a>
       </address>
     </section>

@@ -309,8 +309,8 @@ export default {
         requests, contact us at:
       </p>
       <address class="legal-address">
-        <a href="mailto:weijishu1967924@icloud.com?subject=Umo%20Privacy%20Request">
-          weijishu1967924@icloud.com
+        <a href="mailto:zhoumingying1967@icloud.com?subject=Umo%20Privacy%20Request">
+          zhoumingying1967@icloud.com
         </a>
       </address>
     </section>
