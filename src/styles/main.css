@@ -7,7 +7,14 @@ body,
 }
 
 body {
-  background: #170b2b;
+  background:
+    radial-gradient(circle at 50% -120px, rgba(214, 243, 79, 0.28), transparent 360px),
+    #f1f3ea;
+}
+
+::selection {
+  background: #d6f34f;
+  color: #0e0f0c;
 }
 
 /* html.dark {

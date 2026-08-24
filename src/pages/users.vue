@@ -1,30 +1,36 @@
 <script>
 export default {
-  name: 'UmoUserAgreement',
+  name: 'IrunoTermsOfService',
 }
 </script>
 
 <template>
   <div class="legal-page">
     <header class="legal-hero">
-      <p class="legal-brand">UMO</p>
-      <h1>User Agreement</h1>
-      <p class="legal-updated">Effective: August 17, 2026</p>
+      <p class="legal-brand">
+        IRUNO
+      </p>
+      <h1>Terms of Service</h1>
+      <p class="legal-updated">
+        Effective: August 24, 2026
+      </p>
     </header>
 
     <p class="legal-intro">
-      Welcome to Umo, a dance-focused community for discovering and creating
-      practice rooms, joining live voice conversations, sharing practice clips,
-      and connecting with dancers who have similar interests. This User
-      Agreement governs your access to and use of Umo.
+      Welcome to Iruno, a social running community where runners can share
+      night-run plans and experiences, discover or organize running events,
+      connect with runners, and coordinate through event group chats and other
+      community features. These Terms of Service govern your access to and use
+      of the Iruno application and related services.
     </p>
 
     <section class="legal-section">
-      <h2>1. Acceptance</h2>
+      <h2>1. Acceptance of these terms</h2>
       <p>
-        By creating an account, accessing, or using Umo, you agree to this User
-        Agreement and our Privacy Policy. If you do not agree, do not use Umo.
-        You are also responsible for complying with laws that apply to you.
+        By creating an account or using Iruno, you agree to these Terms of
+        Service and acknowledge our Privacy Policy. If you do not agree, do not
+        access or use Iruno. You must also comply with all laws and regulations
+        that apply to you and to the places where you run or meet others.
       </p>
     </section>
 
@@ -32,166 +38,175 @@ export default {
       <h2>2. Eligibility and accounts</h2>
       <ul>
         <li>You must be at least 13 years old and meet any higher minimum age required where you live.</li>
-        <li>If local law requires permission from a parent or guardian, you must obtain it before using Umo.</li>
+        <li>If you are not old enough to accept these terms independently, you may use Iruno only with permission and supervision from a parent or legal guardian.</li>
         <li>You must provide accurate account information and keep it reasonably current.</li>
-        <li>You are responsible for activity under your account and for keeping your login credentials secure.</li>
-        <li>You may not impersonate another person or create an account for someone else without permission.</li>
+        <li>You are responsible for all activity under your account and for keeping your password and device secure.</li>
+        <li>You may not impersonate another person, misrepresent your identity, or create an account for someone else without authorization.</li>
+        <li>Contact us promptly if you believe your account has been accessed without permission.</li>
       </ul>
     </section>
 
     <section class="legal-section">
-      <h2>3. The Umo service</h2>
+      <h2>3. The Iruno service</h2>
       <p>
-        Umo lets you discover free and paid dance practice rooms organized by
-        dance style, music, training topic, or other room details. You may join
-        live voice conversations, exchange practice experiences, discuss
-        choreography, create and host rooms, follow dancers, publish practice
-        clips and community posts, comment, interact with other users, and
-        create a profile reflecting your dance interests.
+        Iruno enables users to create profiles, publish run plans and running
+        posts, share check-ins and media, discover and create running events,
+        join or leave events, follow other runners, interact with community
+        content, and communicate through event group chats or other messaging
+        features made available in the app.
       </p>
       <p>
-        Features may vary by region, device, account status, or app version.
-        Umo is a community and communication service, not a source of medical
-        advice, injury treatment, emergency assistance, professional coaching
-        certification, or guaranteed training results.
-      </p>
-    </section>
-
-    <section class="legal-section">
-      <h2>4. Practice rooms and live voice chat</h2>
-      <p>
-        Room creators are responsible for selecting appropriate titles, topics,
-        descriptions, entry requirements, and conversation rules. When you join
-        a voice room and activate your microphone, other participants can hear
-        what you say. Do not share private information or audio you do not have
-        permission to share.
-      </p>
-      <p>
-        A room's creator or host is a community member and does not speak for
-        Umo. Room availability, participants, topics, and quality may change at
-        any time. Umo may limit, close, or remove a room that violates this
-        agreement or creates a safety, security, or legal risk.
+        Event details may include a date, time, meeting place, route, distance,
+        expected pace, capacity, and training notes. Features may vary by
+        region, device, account status, and app version. Iruno is a community
+        and communication service; it is not a medical service, emergency
+        service, transportation provider, professional coaching service, or
+        event insurer.
       </p>
     </section>
 
     <section class="legal-section">
-      <h2>5. Your content</h2>
+      <h2>4. Run plans, events, and offline safety</h2>
       <p>
-        You retain ownership of the profile information, room details, practice
-        clips, photos, videos, captions, comments, messages, voice contributions,
-        and other content you submit to Umo. You are responsible for your
-        content and must have all rights and permissions needed to share it,
-        including permission for music, choreography recordings, and people who
-        appear or can be heard in your content where required.
+        Users, not Iruno, create and participate in run plans and events. Event
+        hosts and participants are independent community members and do not act
+        for Iruno. We do not verify every identity, route, meeting point, pace,
+        safety condition, or statement made by a user, and we do not guarantee
+        that an event will occur as described.
       </p>
       <p>
-        To operate Umo, you grant us a worldwide, non-exclusive, royalty-free,
-        sublicensable license to host, store, reproduce, transmit, adapt for
-        technical formatting, distribute, display, and make your content
-        available through the service. This license is limited to operating,
-        improving, securing, and promoting Umo and ends when the content is
-        deleted, except where continued retention is reasonably required for
-        backups, safety, legal compliance, or content already shared by others
-        as permitted by law.
+        Running, especially at night and in groups, involves risks including
+        traffic, weather, poor visibility, unfamiliar routes, physical exertion,
+        injury, and interactions with other people. Use your own judgment,
+        choose lawful and well-lit routes, use appropriate visibility and
+        safety equipment, monitor weather and local conditions, respect your
+        physical limits, and tell someone you trust where you are going. Do not
+        rely on Iruno for emergency assistance. Contact local emergency services
+        if you or another person is in immediate danger.
       </p>
       <p>
-        Do not publish private, sensitive, or identifying information that you
-        do not want other people to see or hear.
+        You must not organize or join an event that requires trespassing,
+        obstructs traffic, violates venue or park rules, creates an unreasonable
+        risk, or encourages participants to ignore medical advice or physical
+        limitations. If you meet another user offline, take reasonable safety
+        precautions and leave any situation that feels unsafe.
       </p>
     </section>
 
     <section class="legal-section">
-      <h2>6. Community standards</h2>
-      <p>You may not use Umo to create, upload, say, promote, or distribute:</p>
+      <h2>5. Chats and interactions</h2>
+      <p>
+        Event chats are provided so participants can coordinate schedules,
+        routes, meeting points, pace, equipment, and training details. Messages
+        are visible to the people who have access to the relevant conversation.
+        Do not share sensitive personal information, live location details,
+        access codes, financial information, or another person's information
+        unless you understand and accept the risks and have permission to do so.
+      </p>
+      <p>
+        You may leave an event, block a user, or report content or conduct using
+        the available controls. Blocking limits interactions through Iruno but
+        cannot prevent contact outside the service or remove copies another
+        person has already saved.
+      </p>
+    </section>
+
+    <section class="legal-section">
+      <h2>6. Your content</h2>
+      <p>
+        You retain ownership of content you submit, including profile details,
+        event information, run plans, check-ins, route descriptions, photos,
+        videos, captions, comments, and messages. You are responsible for your
+        content and must have all rights and permissions required to share it,
+        including permission from people shown or identified in it.
+      </p>
+      <p>
+        To operate Iruno, you grant us a worldwide, non-exclusive, royalty-free,
+        sublicensable license to host, store, reproduce, transmit, technically
+        format, display, and distribute your content through the service. This
+        license is limited to operating, securing, moderating, improving, and
+        making Iruno available. It ends when your content is deleted, except to
+        the extent retention is reasonably necessary for backups, safety,
+        dispute resolution, legal compliance, or content others have lawfully
+        shared or saved.
+      </p>
+      <p>
+        Public profile information, posts, event details, comments, and other
+        public content may be viewed, captured, or reshared by other people.
+        Review content carefully before publishing it.
+      </p>
+    </section>
+
+    <section class="legal-section">
+      <h2>7. Community standards</h2>
+      <p>You may not use Iruno to create, upload, send, promote, or facilitate:</p>
       <ul>
-        <li>Illegal content or content that facilitates illegal activity.</li>
-        <li>Threats, harassment, bullying, stalking, hateful conduct, or targeted abuse.</li>
-        <li>Sexually explicit, exploitative, or non-consensual content.</li>
-        <li>Content involving child sexual abuse, exploitation, grooming, or endangerment.</li>
-        <li>Graphic violence, credible threats, encouragement of self-harm, or dangerous conduct.</li>
-        <li>Another person's private or confidential information without authorization.</li>
-        <li>Content that infringes copyright, trademark, publicity, privacy, or other rights.</li>
-        <li>Spam, scams, deceptive promotions, fake engagement, or impersonation.</li>
-        <li>Malware, automated scraping, unauthorized data collection, or attempts to compromise the service.</li>
+        <li>Illegal activity or content that meaningfully facilitates illegal conduct.</li>
+        <li>Threats, harassment, bullying, stalking, coercion, hateful conduct, or targeted abuse.</li>
+        <li>Sexually explicit, exploitative, or non-consensual content or conduct.</li>
+        <li>Child sexual abuse material, grooming, exploitation, or endangerment of a minor.</li>
+        <li>Graphic violence, credible threats, encouragement of self-harm, or deliberately dangerous running activity.</li>
+        <li>Another person's private, confidential, or precise location information without authorization.</li>
+        <li>Content that infringes copyright, trademark, privacy, publicity, or other rights.</li>
+        <li>Spam, scams, deceptive promotions, fake events, impersonation, or manipulated engagement.</li>
+        <li>Malware, scraping, unauthorized data collection, account interference, or attempts to bypass security.</li>
       </ul>
       <p>
-        Dance and physical training can involve risk. Do not encourage unsafe
-        techniques, ignore physical limits, interfere with another person's
-        training, trespass, or create conditions that put participants or
-        facilities at risk.
+        You must respect other runners' boundaries, pace, safety decisions, and
+        right to leave an event or conversation. Commercial promotion is not
+        permitted unless a feature expressly allows it.
       </p>
     </section>
 
     <section class="legal-section">
-      <h2>7. Reporting, blocking, and moderation</h2>
+      <h2>8. Reporting, blocking, and moderation</h2>
       <p>
-        Umo provides tools to report objectionable content, rooms, or accounts
-        and to block unwanted interactions. We may review reports and relevant
-        information; remove or limit content; close rooms; reduce distribution;
-        restrict features; suspend or terminate accounts; preserve evidence; or
-        contact appropriate authorities when reasonably necessary.
+        Iruno provides tools to report objectionable content, events, messages,
+        or accounts and to block unwanted interactions. We may review reports
+        and relevant content or account activity; remove or limit content;
+        cancel or restrict events; limit messaging or distribution; warn users;
+        suspend or terminate accounts; preserve relevant evidence; or contact
+        appropriate authorities when reasonably necessary.
       </p>
       <p>
-        We may use human and automated review to enforce this agreement, but we
-        cannot guarantee that all objectionable content or conduct will be
-        identified immediately. Blocking limits future interactions through Umo
-        but may not remove content that was previously visible or independently
-        saved. Reports are reviewed within a reasonable period based on severity,
-        available information, and applicable safety obligations.
-      </p>
-    </section>
-
-    <section class="legal-section">
-      <h2>8. Coins, paid rooms, and Apple In-App Purchase</h2>
-      <ul>
-        <li>Umo offers optional Coin packages through Apple In-App Purchase.</li>
-        <li>Coins may be used to enter selected paid practice rooms. The required Coin amount is shown before you join.</li>
-        <li>Purchasing Coins is optional. Free rooms, community posts, profiles, and other available free features remain accessible without payment.</li>
-        <li>Coins are a limited, non-transferable license to use eligible features in Umo. They are not money, have no cash value, and cannot be redeemed or exchanged outside Umo.</li>
-        <li>Prices and package contents are displayed before purchase and may vary by storefront, currency, taxes, and region.</li>
-        <li>Apple processes payments using the Apple ID associated with the App Store. Billing, authorization, cancellations, and refunds are governed by Apple's terms and App Store processes.</li>
-        <li>Except where required by law or Apple's policies, Coins used to enter a room are not refundable merely because you leave early or are dissatisfied with the room.</li>
-        <li>You may not manipulate transactions, receipts, Coin balances, room entry requirements, or paid access.</li>
-      </ul>
-      <p>
-        Payment does not exempt a room or participant from these community
-        standards. We may remove a paid room, restrict participation, or take
-        action against an account that violates this agreement, subject to any
-        rights that cannot legally be excluded.
+        We aim to review reports within a reasonable period based on severity,
+        available information, and safety obligations. We cannot guarantee that
+        every violation will be identified immediately. Do not make knowingly
+        false or abusive reports. If there is an immediate threat, contact local
+        emergency services in addition to using Iruno's reporting tools.
       </p>
     </section>
 
     <section class="legal-section">
       <h2>9. Intellectual property</h2>
       <p>
-        Umo's name, branding, design, software, and original service content are
-        protected by intellectual-property laws. Except for rights expressly
-        granted in this agreement, we retain all rights in the service. You may
-        not copy, reverse engineer, sell, sublicense, or create derivative
-        services from Umo except as permitted by law.
+        Iruno's name, branding, design, software, and original service content
+        are protected by intellectual-property laws. Except for rights expressly
+        granted in these terms, we retain all rights in the service. You may not
+        copy, reverse engineer, sell, sublicense, or create a competing service
+        from Iruno except as permitted by applicable law.
       </p>
       <p>
-        If you believe content on Umo infringes your rights, contact us with
+        If you believe content on Iruno infringes your rights, contact us with
         enough information to identify the protected work, the content at issue,
         your contact details, and the basis for your request.
       </p>
     </section>
 
     <section class="legal-section">
-      <h2>10. Account deletion and termination</h2>
+      <h2>10. Account deletion and enforcement</h2>
       <p>
-        You may request or use the available in-app control to delete your
-        account. Deletion is irreversible after processing and is subject to the
-        limited retention described in the Privacy Policy. Deleting an account
-        does not automatically create an App Store refund or restore Coins that
-        have already been used.
+        You may delete your account through the available in-app account
+        controls or contact us for assistance. Account deletion is irreversible
+        after processing and is subject to the limited retention described in
+        the Privacy Policy.
       </p>
       <p>
         We may restrict, suspend, or terminate access when we reasonably believe
-        you violated these terms, created risk or legal exposure, repeatedly
-        infringed rights, abused other users, or threatened the integrity of the
-        service. Where appropriate, you may contact us to request a review of an
-        enforcement decision.
+        you violated these terms, repeatedly infringed rights, created a safety
+        or legal risk, abused other users, or threatened the integrity of Iruno.
+        Where appropriate, you may contact us to request review of an enforcement
+        decision.
       </p>
     </section>
 
@@ -200,51 +215,52 @@ export default {
       <p>
         We may update, add, remove, limit, or discontinue features to maintain
         safety, security, performance, legal compliance, or product quality. We
-        do not guarantee that Umo, any room, or any particular content will
-        always be available, uninterrupted, or error-free. We may provide notice
-        of material changes when reasonably practicable or legally required.
+        do not guarantee that Iruno, any event, conversation, user, or item of
+        content will always be available, uninterrupted, accurate, or error-free.
+        We may provide notice of material changes when reasonably practicable or
+        legally required.
       </p>
     </section>
 
     <section class="legal-section">
       <h2>12. Third-party services</h2>
       <p>
-        Umo may rely on or link to services operated by third parties, including
-        Apple, Sign in with Apple, and the App Store. Their services are governed
-        by their own terms and policies. We are not responsible for third-party
-        services that we do not control.
+        Iruno may rely on or link to services operated by third parties, such as
+        Apple, hosting, media-delivery, mapping, analytics, or notification
+        providers. Third-party services are governed by their own terms and
+        policies. We are not responsible for services we do not control.
       </p>
     </section>
 
     <section class="legal-section">
       <h2>13. Disclaimers</h2>
       <p>
-        To the fullest extent permitted by law, Umo is provided "as is" and "as
-        available" without warranties of any kind, whether express or implied.
-        Community content and conversations reflect the views of their authors,
-        not Umo. We do not endorse or guarantee the accuracy, safety,
-        availability, or usefulness of user content, room topics, dance advice,
-        training suggestions, or interactions between users.
+        To the fullest extent permitted by law, Iruno is provided "as is" and
+        "as available" without warranties of any kind. User content, event
+        details, route information, pace information, and conversations reflect
+        the views and choices of their authors. We do not endorse or guarantee
+        their accuracy, identity, safety, availability, or usefulness.
       </p>
     </section>
 
     <section class="legal-section">
       <h2>14. Limitation of liability</h2>
       <p>
-        To the fullest extent permitted by law, Umo and its operators will not
+        To the fullest extent permitted by law, Iruno and its operators will not
         be liable for indirect, incidental, special, consequential, or punitive
-        damages, or for loss of data, content, profits, goodwill, Coins, or
-        access arising from use of the service. Nothing in these terms excludes
-        rights or liability that cannot legally be excluded.
+        damages, or for loss of data, content, profits, goodwill, or access
+        arising from use of the service or voluntary offline interactions.
+        Nothing in these terms excludes rights or liability that cannot legally
+        be excluded.
       </p>
     </section>
 
     <section class="legal-section">
-      <h2>15. Changes to this agreement</h2>
+      <h2>15. Changes to these terms</h2>
       <p>
-        We may update this User Agreement as Umo evolves. We will update the
+        We may update these Terms of Service as Iruno evolves. We will update the
         effective date and provide additional notice when required. Continuing
-        to use Umo after revised terms become effective means you agree to the
+        to use Iruno after revised terms become effective means you agree to the
         revised terms.
       </p>
     </section>
@@ -252,12 +268,12 @@ export default {
     <section class="legal-section">
       <h2>16. Contact</h2>
       <p>
-        For questions, safety reports, intellectual-property notices, purchase
-        support, or an enforcement review request, contact:
+        For questions, safety reports, intellectual-property notices, or an
+        enforcement review request, contact:
       </p>
       <address class="legal-address">
-        <a href="mailto:zhoumingying1967@icloud.com?subject=Umo%20User%20Agreement">
-          zhoumingying1967@icloud.com
+        <a href="mailto:halcyonspivey@allnetsolutions.cyou?subject=Iruno%20Terms%20of%20Service">
+          halcyonspivey@allnetsolutions.cyou
         </a>
       </address>
     </section>
