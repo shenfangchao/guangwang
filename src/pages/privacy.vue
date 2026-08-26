@@ -1,29 +1,29 @@
 <script>
 export default {
-  name: 'JozyPrivacyPolicy',
+  name: 'JozyChatPrivacyPolicy',
 }
 </script>
 
 <template>
   <div class="pp-container">
     <header class="pp-header">
-      <h1>Jozy Privacy Policy</h1>
+      <h1>JozyChat Privacy Policy</h1>
       <p class="pp-updated">
         Date of the latest edition: July 26, 2026
       </p>
     </header>
 
     <p class="pp-intro">
-      Jozy is a personal diary and mood-sharing community for everyday
+      JozyChat is a personal diary and mood-sharing community for everyday
       thoughts, small moments, and real-life memories. This Privacy Policy
       explains what information we collect, how we use it, and the choices
-      you have when using Jozy.
+      you have when using JozyChat.
     </p>
 
     <section class="pp-section">
       <h2>1. Information we collect</h2>
       <p>
-        The information we collect depends on how you use Jozy and what
+        The information we collect depends on how you use JozyChat and what
         you choose to create, save, upload, post, react to, or comment on.
       </p>
 
@@ -37,7 +37,7 @@ export default {
 
       <h3>1.2 Diary entries and private records</h3>
       <p>
-        Jozy may process diary entries you create, including text,
+        JozyChat may process diary entries you create, including text,
         images, short videos, mood tags, dates, organization labels, saved
         memories, and other details you choose to add to your personal
         records.
@@ -53,7 +53,7 @@ export default {
 
       <h3>1.4 Media and device permissions</h3>
       <p>
-        If you allow device permissions, Jozy may access your camera,
+        If you allow device permissions, JozyChat may access your camera,
         photo library, microphone, or media files so you can create photo
         and video diary records or community posts. You can manage these
         permissions through your device settings.
@@ -64,7 +64,7 @@ export default {
         We may collect technical information such as device type, operating
         system, app version, language, time zone, IP address, identifiers,
         crash logs, feature usage, and basic analytics so we can operate,
-        secure, debug, and improve Jozy.
+        secure, debug, and improve JozyChat.
       </p>
     </section>
 
@@ -75,7 +75,7 @@ export default {
         <li>To support mood tags, photo records, video records, and memory organization.</li>
         <li>To operate community posting, browsing, reactions, comments, and conversations.</li>
         <li>To provide customer support, respond to questions, and send service notices.</li>
-        <li>To protect Jozy, moderate content, prevent misuse, and enforce our terms.</li>
+        <li>To protect JozyChat, moderate content, prevent misuse, and enforce our terms.</li>
         <li>To analyze app performance, fix bugs, and improve existing features.</li>
       </ul>
     </section>
@@ -96,7 +96,7 @@ export default {
         We may use trusted service providers for hosting, storage,
         analytics, crash reporting, security, customer support, content
         moderation, and other technical operations. These providers may
-        process information only as needed to support Jozy.
+        process information only as needed to support JozyChat.
       </p>
 
       <h3>3.3 For safety, legal, or business reasons</h3>
@@ -104,7 +104,7 @@ export default {
         We may preserve, access, or disclose information if required by law,
         legal process, or a valid government request, or when we believe it
         is necessary to protect users, prevent harm, investigate abuse,
-        enforce our terms, or protect our rights. If Jozy is involved in a
+        enforce our terms, or protect our rights. If JozyChat is involved in a
         merger, acquisition, financing, or asset transfer, user information
         may be transferred as part of that transaction.
       </p>
@@ -121,7 +121,7 @@ export default {
     <section class="pp-section">
       <h2>4. Retention and deletion</h2>
       <p>
-        We keep information for as long as needed to provide Jozy, maintain
+        We keep information for as long as needed to provide JozyChat, maintain
         your account, operate community features, comply with legal
         obligations, resolve disputes, and protect the service. You may
         request access, correction, or deletion of your personal information
@@ -148,11 +148,11 @@ export default {
     <section class="pp-section">
       <h2>6. Children and safety</h2>
       <p>
-        Jozy is intended for users who are old enough to use diary and
+        JozyChat is intended for users who are old enough to use diary and
         community services under applicable law. We do not knowingly collect
         personal information from children where parental consent is
         required. If you believe a child has provided personal information
-        to Jozy, please contact us so we can review and take appropriate
+        to JozyChat, please contact us so we can review and take appropriate
         action.
       </p>
     </section>
