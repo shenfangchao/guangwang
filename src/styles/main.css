@@ -1,22 +1,58 @@
-html,
-body,
-#app {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root { color-scheme: dark; font-synthesis: none; }
+* { box-sizing: border-box; }
+html, body, #app { min-height: 100%; margin: 0; padding: 0; }
+body { background: radial-gradient(circle at 50% -180px, rgba(46, 123, 246, 0.2), transparent 440px), #191e26; }
+::selection { background: #2e7bf6; color: #fff; }
+
+.site-home {
+  width: min(1080px, 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 72px 28px 38px;
+  color: #fff;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-body {
-  background:
-    radial-gradient(circle at 50% -120px, rgba(214, 243, 79, 0.28), transparent 360px),
-    #f1f3ea;
-}
+.home-hero { max-width: 760px; padding: 26px 0 54px; }
+.eyebrow, .document-index, .document-link { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+.eyebrow { margin: 0 0 25px; color: #7fb2ff; font-size: 11px; font-weight: 600; letter-spacing: 0.2em; }
+.brand-lockup { display: flex; align-items: center; gap: 19px; }
+.brand-lockup h1 { margin: 0; font-size: clamp(60px, 11vw, 104px); line-height: 0.94; letter-spacing: -0.065em; }
+.brand-mark { display: flex; align-items: center; justify-content: center; gap: 4px; width: 72px; height: 72px; border-radius: 24px; background: #2e7bf6; }
+.brand-mark i { width: 4px; border-radius: 99px; background: #fff; }
+.brand-mark i:nth-child(1), .brand-mark i:nth-child(5) { height: 16px; opacity: 0.7; }
+.brand-mark i:nth-child(2), .brand-mark i:nth-child(4) { height: 30px; }
+.brand-mark i:nth-child(3) { height: 44px; }
+.home-lead { max-width: 660px; margin: 28px 0 0; color: #8d97a8; font-size: clamp(17px, 2.2vw, 22px); line-height: 1.7; }
 
-::selection {
-  background: #d6f34f;
-  color: #0e0f0c;
+.document-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.document-card {
+  min-height: 250px;
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 22px;
+  background: #232b36;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 160ms ease, transform 160ms ease, background 160ms ease;
 }
+.document-card:hover, .document-card:focus-visible { border-color: rgba(46, 123, 246, 0.55); background: #26303d; outline: none; transform: translateY(-2px); }
+.document-index { color: #2e7bf6; font-size: 12px; font-weight: 600; }
+.document-card h2 { margin: 44px 0 12px; font-size: 24px; line-height: 1.25; letter-spacing: -0.025em; }
+.document-card p { min-height: 68px; margin: 0 0 26px; color: #8d97a8; font-size: 14px; line-height: 1.65; }
+.document-link { color: #7fb2ff; font-size: 10px; font-weight: 600; letter-spacing: 0.14em; }
+.site-footer { display: flex; justify-content: space-between; margin-top: 54px; padding-top: 24px; border-top: 1px solid rgba(255, 255, 255, 0.07); color: #616c7d; font-size: 12px; }
+.site-footer a { color: #8d97a8; text-decoration: none; }
 
-/* html.dark {
-  background: #121212;
-} */
+@media (max-width: 680px) {
+  .site-home { padding: 40px 16px 28px; }
+  .home-hero { padding-bottom: 38px; }
+  .brand-lockup { gap: 13px; }
+  .brand-mark { width: 54px; height: 54px; border-radius: 18px; }
+  .document-grid { grid-template-columns: 1fr; }
+  .document-card { min-height: 0; padding: 23px; }
+  .document-card h2 { margin-top: 30px; }
+  .document-card p { min-height: 0; }
+}

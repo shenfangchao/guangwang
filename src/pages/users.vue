@@ -1,283 +1,136 @@
-<script>
-export default {
-  name: 'IrunoTermsOfService',
-}
+<script setup lang="ts">
+const email = 'SeylO@gmail.com'
 </script>
 
 <template>
-  <div class="legal-page">
+  <main class="legal-page">
     <header class="legal-hero">
-      <p class="legal-brand">
-        IRUNO
-      </p>
+      <RouterLink to="/" class="legal-brand">SEYLO</RouterLink>
+      <p class="legal-kicker">LEGAL · 01</p>
       <h1>Terms of Service</h1>
-      <p class="legal-updated">
-        Effective: August 24, 2026
-      </p>
+      <p class="legal-updated">Effective: September 1, 2026</p>
     </header>
 
+    <nav class="legal-nav" aria-label="Legal documents">
+      <RouterLink to="/terms">Terms</RouterLink>
+      <RouterLink to="/privacy">Privacy</RouterLink>
+      <RouterLink to="/community-guidelines">Guidelines</RouterLink>
+      <RouterLink to="/account-deletion">Delete account</RouterLink>
+    </nav>
+
     <p class="legal-intro">
-      Welcome to Iruno, a social running community where runners can share
-      night-run plans and experiences, discover or organize running events,
-      connect with runners, and coordinate through event group chats and other
-      community features. These Terms of Service govern your access to and use
-      of the Iruno application and related services.
+      SeylO is a voice-first social community for live conversations, shared interests, and voice events. These Terms govern your access to the SeylO mobile application and related services.
     </p>
 
     <section class="legal-section">
-      <h2>1. Acceptance of these terms</h2>
+      <h2>1. Agreement and eligibility</h2>
       <p>
-        By creating an account or using Iruno, you agree to these Terms of
-        Service and acknowledge our Privacy Policy. If you do not agree, do not
-        access or use Iruno. You must also comply with all laws and regulations
-        that apply to you and to the places where you run or meet others.
+        By creating an account or using SeylO, you agree to these Terms, our Privacy Policy, and our Community Guidelines. If you do not agree, do not use the service. You must be at least 13 years old and meet any higher minimum age required where you live. If you are not legally able to accept these Terms yourself, you may use SeylO only with permission from a parent or legal guardian.
       </p>
     </section>
 
     <section class="legal-section">
-      <h2>2. Eligibility and accounts</h2>
+      <h2>2. Accounts</h2>
+      <p>
+        Provide accurate account information, keep your login credentials and device secure, and promptly tell us if you suspect unauthorized access. You may not impersonate another person, misrepresent your identity, sell or transfer an account, or create an account for someone without permission. You are responsible for activity performed through your account.
+      </p>
+    </section>
+
+    <section class="legal-section">
+      <h2>3. Live rooms and communication</h2>
+      <p>
+        You may discover and enter live rooms as a listener. To speak, raise your hand and wait for the host to invite you to a speaking seat. Hosts may manage speakers, mute or remove participants, and end rooms. Standard live rooms, listening, speaking, following, mutually enabled private messaging, and one-to-one video calls are free and do not use Coins.
+      </p>
+      <p>
+        Live room audio is not recorded or stored by SeylO and no replay is provided. Other participants may still hear, remember, or independently capture what you say. Treat every live microphone as public and do not share information you want to keep confidential.
+      </p>
+      <p>
+        Private messaging and one-to-one video communication become available only after both users follow each other. A block or unfollow may end access to those features. SeylO does not guarantee that any user, host, speaker, room, message, or call will always be available.
+      </p>
+    </section>
+
+    <section class="legal-section">
+      <h2>4. Events and Paid Events</h2>
+      <p>
+        Users may start a live room or publish a scheduled Event. An Event host chooses whether an Event is Free or Paid. For a Paid Event, the host sets a Coin ticket price shown before another user purchases access. A ticket grants access only to the identified Paid Event and does not create a subscription, membership, VIP status, or right to other rooms.
+      </p>
+      <p>
+        Hosts are responsible for accurately describing their Events and may not mislead users about the topic, speakers, timing, or ticketed experience. SeylO cannot guarantee attendance, audience size, Event quality, or host earnings. If a host cancels before an Event starts, the ticket may be automatically refunded in Coins. Once the Event starts, tickets are final except where applicable law requires otherwise.
+      </p>
+    </section>
+
+    <section class="legal-section">
+      <h2>5. Coins and Apple In-App Purchase</h2>
+      <p>
+        Coins are optional, limited, licensed virtual items used only to access Paid Events within SeylO. Coins are not money, cryptocurrency, a stored value account, or property. They have no cash value and cannot be sold, transferred between users, withdrawn, or redeemed for cash or anything outside SeylO.
+      </p>
+      <p>
+        Coin purchases on iOS are processed by Apple In-App Purchase and are also subject to Apple's terms. Prices and Coin quantities are shown before purchase. Purchased Coins do not expire while your account and the Coin program remain available. Purchases are final except as required by law or permitted through Apple's refund process. Deleting your account permanently forfeits unused Coins and Event tickets.
+      </p>
+      <p>
+        Event hosts may receive a disclosed portion of ticket sales as Coins usable in SeylO. These Coins remain non-transferable and non-withdrawable and do not represent wages, cash earnings, or a promise of payment.
+      </p>
+    </section>
+
+    <section class="legal-section">
+      <h2>6. Your content and license</h2>
+      <p>
+        You retain ownership of profile information, Event descriptions, messages, and other content you submit. You must have the rights and permissions needed to share it. You grant SeylO a worldwide, non-exclusive, royalty-free license to host, store, reproduce, transmit, format, display, and moderate that content only as reasonably needed to operate, secure, improve, and provide the service. This license ends when content is deleted, subject to reasonable backup, safety, dispute, and legal retention.
+      </p>
+    </section>
+
+    <section class="legal-section">
+      <h2>7. Prohibited conduct</h2>
+      <p>You may not use SeylO to:</p>
       <ul>
-        <li>You must be at least 13 years old and meet any higher minimum age required where you live.</li>
-        <li>If you are not old enough to accept these terms independently, you may use Iruno only with permission and supervision from a parent or legal guardian.</li>
-        <li>You must provide accurate account information and keep it reasonably current.</li>
-        <li>You are responsible for all activity under your account and for keeping your password and device secure.</li>
-        <li>You may not impersonate another person, misrepresent your identity, or create an account for someone else without authorization.</li>
-        <li>Contact us promptly if you believe your account has been accessed without permission.</li>
+        <li>harass, threaten, bully, stalk, exploit, or discriminate against others;</li>
+        <li>share sexual exploitation, child sexual abuse material, non-consensual intimate content, or graphic violence;</li>
+        <li>impersonate others, run scams, spam users, manipulate engagement, or publish deceptive Paid Events;</li>
+        <li>infringe intellectual-property, privacy, publicity, or other rights;</li>
+        <li>publish another person's private information without permission;</li>
+        <li>introduce malware, scrape data, bypass access controls, interfere with the service, or misuse reports;</li>
+        <li>use Coins, Events, rooms, messages, or calls for gambling, money transmission, cash exchange, or illegal activity.</li>
       </ul>
-    </section>
-
-    <section class="legal-section">
-      <h2>3. The Iruno service</h2>
-      <p>
-        Iruno enables users to create profiles, publish run plans and running
-        posts, share check-ins and media, discover and create running events,
-        join or leave events, follow other runners, interact with community
-        content, and communicate through event group chats or other messaging
-        features made available in the app.
-      </p>
-      <p>
-        Event details may include a date, time, meeting place, route, distance,
-        expected pace, capacity, and training notes. Features may vary by
-        region, device, account status, and app version. Iruno is a community
-        and communication service; it is not a medical service, emergency
-        service, transportation provider, professional coaching service, or
-        event insurer.
-      </p>
-    </section>
-
-    <section class="legal-section">
-      <h2>4. Run plans, events, and offline safety</h2>
-      <p>
-        Users, not Iruno, create and participate in run plans and events. Event
-        hosts and participants are independent community members and do not act
-        for Iruno. We do not verify every identity, route, meeting point, pace,
-        safety condition, or statement made by a user, and we do not guarantee
-        that an event will occur as described.
-      </p>
-      <p>
-        Running, especially at night and in groups, involves risks including
-        traffic, weather, poor visibility, unfamiliar routes, physical exertion,
-        injury, and interactions with other people. Use your own judgment,
-        choose lawful and well-lit routes, use appropriate visibility and
-        safety equipment, monitor weather and local conditions, respect your
-        physical limits, and tell someone you trust where you are going. Do not
-        rely on Iruno for emergency assistance. Contact local emergency services
-        if you or another person is in immediate danger.
-      </p>
-      <p>
-        You must not organize or join an event that requires trespassing,
-        obstructs traffic, violates venue or park rules, creates an unreasonable
-        risk, or encourages participants to ignore medical advice or physical
-        limitations. If you meet another user offline, take reasonable safety
-        precautions and leave any situation that feels unsafe.
-      </p>
-    </section>
-
-    <section class="legal-section">
-      <h2>5. Chats and interactions</h2>
-      <p>
-        Event chats are provided so participants can coordinate schedules,
-        routes, meeting points, pace, equipment, and training details. Messages
-        are visible to the people who have access to the relevant conversation.
-        Do not share sensitive personal information, live location details,
-        access codes, financial information, or another person's information
-        unless you understand and accept the risks and have permission to do so.
-      </p>
-      <p>
-        You may leave an event, block a user, or report content or conduct using
-        the available controls. Blocking limits interactions through Iruno but
-        cannot prevent contact outside the service or remove copies another
-        person has already saved.
-      </p>
-    </section>
-
-    <section class="legal-section">
-      <h2>6. Your content</h2>
-      <p>
-        You retain ownership of content you submit, including profile details,
-        event information, run plans, check-ins, route descriptions, photos,
-        videos, captions, comments, and messages. You are responsible for your
-        content and must have all rights and permissions required to share it,
-        including permission from people shown or identified in it.
-      </p>
-      <p>
-        To operate Iruno, you grant us a worldwide, non-exclusive, royalty-free,
-        sublicensable license to host, store, reproduce, transmit, technically
-        format, display, and distribute your content through the service. This
-        license is limited to operating, securing, moderating, improving, and
-        making Iruno available. It ends when your content is deleted, except to
-        the extent retention is reasonably necessary for backups, safety,
-        dispute resolution, legal compliance, or content others have lawfully
-        shared or saved.
-      </p>
-      <p>
-        Public profile information, posts, event details, comments, and other
-        public content may be viewed, captured, or reshared by other people.
-        Review content carefully before publishing it.
-      </p>
-    </section>
-
-    <section class="legal-section">
-      <h2>7. Community standards</h2>
-      <p>You may not use Iruno to create, upload, send, promote, or facilitate:</p>
-      <ul>
-        <li>Illegal activity or content that meaningfully facilitates illegal conduct.</li>
-        <li>Threats, harassment, bullying, stalking, coercion, hateful conduct, or targeted abuse.</li>
-        <li>Sexually explicit, exploitative, or non-consensual content or conduct.</li>
-        <li>Child sexual abuse material, grooming, exploitation, or endangerment of a minor.</li>
-        <li>Graphic violence, credible threats, encouragement of self-harm, or deliberately dangerous running activity.</li>
-        <li>Another person's private, confidential, or precise location information without authorization.</li>
-        <li>Content that infringes copyright, trademark, privacy, publicity, or other rights.</li>
-        <li>Spam, scams, deceptive promotions, fake events, impersonation, or manipulated engagement.</li>
-        <li>Malware, scraping, unauthorized data collection, account interference, or attempts to bypass security.</li>
-      </ul>
-      <p>
-        You must respect other runners' boundaries, pace, safety decisions, and
-        right to leave an event or conversation. Commercial promotion is not
-        permitted unless a feature expressly allows it.
-      </p>
     </section>
 
     <section class="legal-section">
       <h2>8. Reporting, blocking, and moderation</h2>
       <p>
-        Iruno provides tools to report objectionable content, events, messages,
-        or accounts and to block unwanted interactions. We may review reports
-        and relevant content or account activity; remove or limit content;
-        cancel or restrict events; limit messaging or distribution; warn users;
-        suspend or terminate accounts; preserve relevant evidence; or contact
-        appropriate authorities when reasonably necessary.
-      </p>
-      <p>
-        We aim to review reports within a reasonable period based on severity,
-        available information, and safety obligations. We cannot guarantee that
-        every violation will be identified immediately. Do not make knowingly
-        false or abusive reports. If there is an immediate threat, contact local
-        emergency services in addition to using Iruno's reporting tools.
+        SeylO provides reporting and blocking controls. We may review reports and relevant account or content information; remove or limit content; mute or remove participants; cancel Events; restrict features; suspend or terminate accounts; preserve evidence; or contact authorities when reasonably necessary. Blocking limits interactions within SeylO but cannot prevent contact outside the service. Do not rely on SeylO for emergency help; contact local emergency services if anyone is in immediate danger.
       </p>
     </section>
 
     <section class="legal-section">
-      <h2>9. Intellectual property</h2>
+      <h2>9. Account deletion and termination</h2>
       <p>
-        Iruno's name, branding, design, software, and original service content
-        are protected by intellectual-property laws. Except for rights expressly
-        granted in these terms, we retain all rights in the service. You may not
-        copy, reverse engineer, sell, sublicense, or create a competing service
-        from Iruno except as permitted by applicable law.
+        You may permanently delete your account from the in-app Settings page. Deletion removes or de-identifies the active account and associated personal data after processing, subject to limited retention described in the Privacy Policy. Deletion cannot be undone, and unused Coins and tickets cannot be restored.
       </p>
       <p>
-        If you believe content on Iruno infringes your rights, contact us with
-        enough information to identify the protected work, the content at issue,
-        your contact details, and the basis for your request.
+        We may restrict, suspend, or terminate access when we reasonably believe you violated these Terms or the Community Guidelines, created legal or safety risk, harmed users, or threatened service integrity.
       </p>
     </section>
 
     <section class="legal-section">
-      <h2>10. Account deletion and enforcement</h2>
+      <h2>10. Service and third parties</h2>
       <p>
-        You may delete your account through the available in-app account
-        controls or contact us for assistance. Account deletion is irreversible
-        after processing and is subject to the limited retention described in
-        the Privacy Policy.
-      </p>
-      <p>
-        We may restrict, suspend, or terminate access when we reasonably believe
-        you violated these terms, repeatedly infringed rights, created a safety
-        or legal risk, abused other users, or threatened the integrity of Iruno.
-        Where appropriate, you may contact us to request review of an enforcement
-        decision.
+        Features may vary by account, region, device, or app version. We may update, limit, or discontinue features for safety, security, legal, performance, or product reasons. SeylO may rely on Apple and other providers for purchases, hosting, communications, notifications, security, and diagnostics. Their services are governed by their own terms and policies.
       </p>
     </section>
 
     <section class="legal-section">
-      <h2>11. Service availability and changes</h2>
+      <h2>11. Disclaimers and liability</h2>
       <p>
-        We may update, add, remove, limit, or discontinue features to maintain
-        safety, security, performance, legal compliance, or product quality. We
-        do not guarantee that Iruno, any event, conversation, user, or item of
-        content will always be available, uninterrupted, accurate, or error-free.
-        We may provide notice of material changes when reasonably practicable or
-        legally required.
+        To the fullest extent permitted by law, SeylO is provided “as is” and “as available.” User content and conversations reflect their authors' views. We do not guarantee their identity, accuracy, safety, quality, or availability. To the fullest extent permitted by law, SeylO and its operators are not liable for indirect, incidental, special, consequential, exemplary, or punitive damages, or loss of data, access, goodwill, or profits. Nothing here excludes rights or liability that applicable law does not allow us to exclude.
       </p>
     </section>
 
     <section class="legal-section">
-      <h2>12. Third-party services</h2>
+      <h2>12. Changes and contact</h2>
       <p>
-        Iruno may rely on or link to services operated by third parties, such as
-        Apple, hosting, media-delivery, mapping, analytics, or notification
-        providers. Third-party services are governed by their own terms and
-        policies. We are not responsible for services we do not control.
+        We may update these Terms as SeylO changes. We will update the effective date and provide additional notice when required. For questions, intellectual-property notices, safety concerns, or review of an enforcement action, contact us at <a :href="`mailto:${email}?subject=SeylO%20Terms%20Request`">{{ email }}</a>.
       </p>
     </section>
-
-    <section class="legal-section">
-      <h2>13. Disclaimers</h2>
-      <p>
-        To the fullest extent permitted by law, Iruno is provided "as is" and
-        "as available" without warranties of any kind. User content, event
-        details, route information, pace information, and conversations reflect
-        the views and choices of their authors. We do not endorse or guarantee
-        their accuracy, identity, safety, availability, or usefulness.
-      </p>
-    </section>
-
-    <section class="legal-section">
-      <h2>14. Limitation of liability</h2>
-      <p>
-        To the fullest extent permitted by law, Iruno and its operators will not
-        be liable for indirect, incidental, special, consequential, or punitive
-        damages, or for loss of data, content, profits, goodwill, or access
-        arising from use of the service or voluntary offline interactions.
-        Nothing in these terms excludes rights or liability that cannot legally
-        be excluded.
-      </p>
-    </section>
-
-    <section class="legal-section">
-      <h2>15. Changes to these terms</h2>
-      <p>
-        We may update these Terms of Service as Iruno evolves. We will update the
-        effective date and provide additional notice when required. Continuing
-        to use Iruno after revised terms become effective means you agree to the
-        revised terms.
-      </p>
-    </section>
-
-    <section class="legal-section">
-      <h2>16. Contact</h2>
-      <p>
-        For questions, safety reports, intellectual-property notices, or an
-        enforcement review request, contact:
-      </p>
-      <address class="legal-address">
-        <a href="mailto:halcyonspivey@allnetsolutions.cyou?subject=Iruno%20Terms%20of%20Service">
-          halcyonspivey@allnetsolutions.cyou
-        </a>
-      </address>
-    </section>
-  </div>
+  </main>
 </template>
 
 <style scoped>
