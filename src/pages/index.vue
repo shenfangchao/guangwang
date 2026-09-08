@@ -31,7 +31,7 @@ const documents = [
 
     <footer class="site-footer">
       <span>© 2026 SeylO</span>
-      <a href="mailto:SeylO@gmail.com">SeylO@gmail.com</a>
+      <a href="mailto:maryj@moesbrands.cyou">maryj@moesbrands.cyou</a>
     </footer>
   </main>
 </template>
