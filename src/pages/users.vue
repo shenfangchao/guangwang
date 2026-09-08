@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const email = 'maryj@moesbrands.cyou'
+const email = 'lilye@taneshiasprinting.pics'
 </script>
 
 <template>
